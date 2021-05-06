@@ -12,7 +12,7 @@ URL = 'https://www.ufc.com/rankings'
 page = requests.get(URL)
 soup = BeautifulSoup(page.content, 'html.parser')
 weightclass = soup.findAll('div', attrs={'class':'view-grouping'})
-api_key = 'AIzaSyBxnrXfcsph_A31SQuiqZSgnV3ySe1gMFk'
+api_key = 'Your API Key'
 map_client = googlemaps.Client(api_key)
 
 Flyweight = weightclass[1].findAll('div', attrs={'class':'views-row'})
