@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+#name-gym {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 18px;
+}
+
+#name-athlete {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+#rank {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.gm-style .gm-style-iw {
+  padding: 10px;
+  width: 300px;
+  background-color: #3C61AD;
+  
+}
