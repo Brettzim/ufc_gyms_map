@@ -64,9 +64,8 @@ df = pd.DataFrame(product, columns = ['Rank', 'Name', 'Gym', 'Location'])
 df.to_json('data/'+date+'_stats.json',orient='records')
 
 src=open('data/'+date+'_stats.json',"r") 
-fline="let dataLocations = "    #Prepending string 
+fline="let dataLocations = "   
 oline=src.readlines() 
-#Here, we prepend the string we want to on first line 
 oline.insert(0,fline) 
 src.close() 
  
