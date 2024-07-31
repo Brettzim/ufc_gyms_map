@@ -1,0 +1,2870 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.431107,
+                    41.401486
+                ]
+            },
+            "properties": {
+                "name": "Alexandre Pantoja",
+                "gym_location": "American Top Team",
+                "rank": "Champion"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.177717,
+                    36.239573
+                ]
+            },
+            "properties": {
+                "name": "Brandon Royval",
+                "gym_location": "Factory X",
+                "rank": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.663302,
+                    41.003537
+                ]
+            },
+            "properties": {
+                "name": "Brandon Moreno",
+                "gym_location": "Jiu-Jitsu",
+                "rank": "2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.323575,
+                    36.226171
+                ]
+            },
+            "properties": {
+                "name": "Amir Albazi",
+                "gym_location": "Xtreme Couture - Las Vegas, NV",
+                "rank": "3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.75294,
+                    -36.865604
+                ]
+            },
+            "properties": {
+                "name": "Kai Kara-France",
+                "gym_location": "City Kickboxing",
+                "rank": "4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.423598,
+                    4.218998
+                ]
+            },
+            "properties": {
+                "name": "Tatsuro Taira",
+                "gym_location": "24",
+                "rank": "5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.245147,
+                    36.056956
+                ]
+            },
+            "properties": {
+                "name": "Alex Perez",
+                "gym_location": "Syndicate MMA",
+                "rank": "6"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.609612,
+                    -25.837608
+                ]
+            },
+            "properties": {
+                "name": "Steve Erceg",
+                "gym_location": "MMA",
+                "rank": "7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -43.1776715,
+                    -22.936483
+                ]
+            },
+            "properties": {
+                "name": "Matheus Nicolau",
+                "gym_location": "Nova Uniao - Rio de Janeiro",
+                "rank": "8"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.323575,
+                    36.226171
+                ]
+            },
+            "properties": {
+                "name": "Manel Kape",
+                "gym_location": "Xtreme Couture - Las Vegas, NV",
+                "rank": "9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.445516,
+                    44.809144
+                ]
+            },
+            "properties": {
+                "name": "Tim Elliott",
+                "gym_location": "Freestyle",
+                "rank": "10"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.438435,
+                    31.212586
+                ]
+            },
+            "properties": {
+                "name": "Matt Schnell",
+                "gym_location": "Boxing",
+                "rank": "11"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.43321,
+                    43.63531
+                ]
+            },
+            "properties": {
+                "name": "Tagir Ulanbekov",
+                "gym_location": "Eagles MMA Team",
+                "rank": "12"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.92551,
+                    39.74047
+                ]
+            },
+            "properties": {
+                "name": "Bruno Silva",
+                "gym_location": "Grappler",
+                "rank": "13"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.379213,
+                    45.096305
+                ]
+            },
+            "properties": {
+                "name": "Asu Almabayev",
+                "gym_location": "Gym information not found",
+                "rank": "14"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.431107,
+                    41.401486
+                ]
+            },
+            "properties": {
+                "name": "Cody Durden",
+                "gym_location": "American Top Team",
+                "rank": "15"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.18309,
+                    33.53855
+                ]
+            },
+            "properties": {
+                "name": "Sean O'Malley",
+                "gym_location": "MMA LAB - Glendale, AZ",
+                "rank": "Champion"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.36962,
+                    39.43218
+                ]
+            },
+            "properties": {
+                "name": "Merab Dvalishvili",
+                "gym_location": "Team Serra/Longo",
+                "rank": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.609612,
+                    -25.837608
+                ]
+            },
+            "properties": {
+                "name": "Cory Sandhagen",
+                "gym_location": "MMA",
+                "rank": "2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -35.88803,
+                    -7.224538
+                ]
+            },
+            "properties": {
+                "name": "Petr Yan",
+                "gym_location": "Team Yan",
+                "rank": "3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.92551,
+                    39.74047
+                ]
+            },
+            "properties": {
+                "name": "Marlon Vera",
+                "gym_location": "Grappler",
+                "rank": "4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.92618,
+                    33.496822
+                ]
+            },
+            "properties": {
+                "name": "Henry Cejudo",
+                "gym_location": "Fight Ready - Scottsdale, AZ",
+                "rank": "5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.742356,
+                    41.710492
+                ]
+            },
+            "properties": {
+                "name": "Deiveson Figueiredo",
+                "gym_location": "Team Figueiredo",
+                "rank": "6"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.26126,
+                    2.182126
+                ]
+            },
+            "properties": {
+                "name": "Song Yadong",
+                "gym_location": "Team Alpha Male",
+                "rank": "7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -43.57897,
+                    -19.689968
+                ]
+            },
+            "properties": {
+                "name": "Jos\u00e9 Aldo",
+                "gym_location": "Nova Uni\u00e3o",
+                "rank": "8"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.0568,
+                    42.35888
+                ]
+            },
+            "properties": {
+                "name": "Rob Font",
+                "gym_location": "Sityodtong - Boston",
+                "rank": "9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.609612,
+                    -25.837608
+                ]
+            },
+            "properties": {
+                "name": "Umar Nurmagomedov",
+                "gym_location": "MMA",
+                "rank": "10"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.28015,
+                    46.775093
+                ]
+            },
+            "properties": {
+                "name": "Kyler Phillips",
+                "gym_location": "The MMA Lab",
+                "rank": "11"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.28015,
+                    46.775093
+                ]
+            },
+            "properties": {
+                "name": "Mario Bautista",
+                "gym_location": "The MMA Lab",
+                "rank": "12"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.962258,
+                    32.847002
+                ]
+            },
+            "properties": {
+                "name": "Dominick Cruz",
+                "gym_location": "Alliance Training Center East -Santee",
+                "rank": "13"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.177717,
+                    36.239573
+                ]
+            },
+            "properties": {
+                "name": "Jonathan Martinez",
+                "gym_location": "Factory X",
+                "rank": "14"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.566089,
+                    47.587067
+                ]
+            },
+            "properties": {
+                "name": "Montel Jackson",
+                "gym_location": "Pura Vida BJJ & MMA",
+                "rank": "15"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.125668,
+                    40.096742
+                ]
+            },
+            "properties": {
+                "name": "Ilia Topuria",
+                "gym_location": "Brazilian Jiu-Jitsu",
+                "rank": "Champion"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.074235,
+                    40.965341
+                ]
+            },
+            "properties": {
+                "name": "Alexander Volkanovski",
+                "gym_location": "Freestyle Fighting Gym",
+                "rank": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -155.860178,
+                    19.951097
+                ]
+            },
+            "properties": {
+                "name": "Max Holloway",
+                "gym_location": "Hawaii Elite MMA - Hawaii",
+                "rank": "2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.002382,
+                    37.344871
+                ]
+            },
+            "properties": {
+                "name": "Brian Ortega",
+                "gym_location": "Team Ortega",
+                "rank": "3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -58.061008,
+                    -34.86904
+                ]
+            },
+            "properties": {
+                "name": "Yair Rodriguez",
+                "gym_location": "Izzystyle wrestling & VFS Chicago",
+                "rank": "4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    100.75025550000001,
+                    13.68970625
+                ]
+            },
+            "properties": {
+                "name": "Arnold Allen",
+                "gym_location": "BKK / Tristar",
+                "rank": "5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.1578606,
+                    0.9174313
+                ]
+            },
+            "properties": {
+                "name": "Josh Emmett",
+                "gym_location": "Team Alpha Male  (Urijah Faber's Ultimate Fitness)",
+                "rank": "7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.253616,
+                    40.805805
+                ]
+            },
+            "properties": {
+                "name": "Aljamain Sterling",
+                "gym_location": "Serra-Longo - Long Island, NY",
+                "rank": "8"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.265102,
+                    53.367321
+                ]
+            },
+            "properties": {
+                "name": "Calvin Kattar",
+                "gym_location": "New England MMA",
+                "rank": "9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.999588,
+                    33.7161
+                ]
+            },
+            "properties": {
+                "name": "Giga Chikadze",
+                "gym_location": "Kings MMA",
+                "rank": "10"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.45047,
+                    42.908025
+                ]
+            },
+            "properties": {
+                "name": "Lerone Murphy",
+                "gym_location": "All Powers Gym",
+                "rank": "11"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.663302,
+                    41.003537
+                ]
+            },
+            "properties": {
+                "name": "Diego Lopes",
+                "gym_location": "Jiu-Jitsu",
+                "rank": "12"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.609612,
+                    -25.837608
+                ]
+            },
+            "properties": {
+                "name": "Bryce Mitchell",
+                "gym_location": "MMA",
+                "rank": "13"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.663302,
+                    41.003537
+                ]
+            },
+            "properties": {
+                "name": "Dan Ige",
+                "gym_location": "Jiu-Jitsu",
+                "rank": "14"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -46.668756,
+                    -23.562981
+                ]
+            },
+            "properties": {
+                "name": "Edson Barboza",
+                "gym_location": "Ricardo Almeida / Valor MMA",
+                "rank": "15"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.917046,
+                    37.264671
+                ]
+            },
+            "properties": {
+                "name": "Islam Makhachev",
+                "gym_location": "AKA (American Kickboxing Academy) San Jose",
+                "rank": "Champion"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.244765,
+                    36.057018
+                ]
+            },
+            "properties": {
+                "name": "Arman Tsarukyan",
+                "gym_location": "Syndicate MMA - Las Vegas, NV",
+                "rank": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.202789,
+                    40.711273
+                ]
+            },
+            "properties": {
+                "name": "Charles Oliveira",
+                "gym_location": "Bronx's Gold Team",
+                "rank": "2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.401413,
+                    35.497055
+                ]
+            },
+            "properties": {
+                "name": "Justin Gaethje",
+                "gym_location": "Genesis Training Center",
+                "rank": "3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.202009,
+                    26.297208
+                ]
+            },
+            "properties": {
+                "name": "Dustin Poirier",
+                "gym_location": "American Top Team ATT Coconut Creek, FL",
+                "rank": "4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.431107,
+                    41.401486
+                ]
+            },
+            "properties": {
+                "name": "Mateusz Gamrot",
+                "gym_location": "American Top Team",
+                "rank": "5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.320173,
+                    28.811337
+                ]
+            },
+            "properties": {
+                "name": "Michael Chandler",
+                "gym_location": "Sanford MMA",
+                "rank": "6"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.999588,
+                    33.7161
+                ]
+            },
+            "properties": {
+                "name": "Beneil Dariush",
+                "gym_location": "Kings MMA - Huntington Beach, CA",
+                "rank": "7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    98.39086,
+                    7.882835
+                ]
+            },
+            "properties": {
+                "name": "Rafael Fiziev",
+                "gym_location": "Tiger Muay Thai - Phuket, Thailand",
+                "rank": "8"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -155.860178,
+                    19.951097
+                ]
+            },
+            "properties": {
+                "name": "Max Holloway",
+                "gym_location": "Hawaii Elite MMA - Hawaii",
+                "rank": "9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.431107,
+                    41.401486
+                ]
+            },
+            "properties": {
+                "name": "Renato Moicano",
+                "gym_location": "American Top Team",
+                "rank": "10"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.728993,
+                    10.739537
+                ]
+            },
+            "properties": {
+                "name": "Dan Hooker",
+                "gym_location": "Saigon Sports Club- Vietnam",
+                "rank": "11"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3483915,
+                    48.8534951
+                ]
+            },
+            "properties": {
+                "name": "Beno\u00eet Saint Denis",
+                "gym_location": "Venum Training Camp Paris",
+                "rank": "12"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.609612,
+                    -25.837608
+                ]
+            },
+            "properties": {
+                "name": "Jalin Turner",
+                "gym_location": "MMA",
+                "rank": "13"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.999588,
+                    33.7161
+                ]
+            },
+            "properties": {
+                "name": "Rafael Dos Anjos",
+                "gym_location": "Kings MMA - Huntington Beach, CA",
+                "rank": "14"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.773006,
+                    -36.853851
+                ]
+            },
+            "properties": {
+                "name": "Paddy Pimblett",
+                "gym_location": "NEXT Generation MMA",
+                "rank": "15"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -88.2049,
+                    41.884636
+                ]
+            },
+            "properties": {
+                "name": "Belal Muhammad",
+                "gym_location": "Roufusport, (Mikwaukee, WI) & Chicago Fight Team (Chicago, IL)",
+                "rank": "Champion"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.973942,
+                    40.760587
+                ]
+            },
+            "properties": {
+                "name": "Leon Edwards",
+                "gym_location": "UTC Ultimate Training Centre Birmingham",
+                "rank": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.102879,
+                    26.3709205
+                ]
+            },
+            "properties": {
+                "name": "Kamaru Usman",
+                "gym_location": "Blackzilians - Boca Raton, FL",
+                "rank": "2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.030244,
+                    -36.927555
+                ]
+            },
+            "properties": {
+                "name": "Shavkat Rakhmonov",
+                "gym_location": "Kill Cliff FC",
+                "rank": "3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.194434,
+                    25.790915
+                ]
+            },
+            "properties": {
+                "name": "Colby Covington",
+                "gym_location": "MMA Masters - Miami, FL",
+                "rank": "4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.609612,
+                    -25.837608
+                ]
+            },
+            "properties": {
+                "name": "Jack Della Maddalena",
+                "gym_location": "MMA",
+                "rank": "5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.774374,
+                    35.704535
+                ]
+            },
+            "properties": {
+                "name": "Gilbert Burns",
+                "gym_location": "Jaco Hybrid Training Center",
+                "rank": "6"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.379213,
+                    45.096305
+                ]
+            },
+            "properties": {
+                "name": "Ian Machado Garry",
+                "gym_location": "Gym information not found",
+                "rank": "7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.125668,
+                    40.096742
+                ]
+            },
+            "properties": {
+                "name": "Sean Brady",
+                "gym_location": "Brazilian Jiu-Jitsu",
+                "rank": "8"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.774926,
+                    42.565902
+                ]
+            },
+            "properties": {
+                "name": "Stephen Thompson",
+                "gym_location": "Upstate Karate Family Martial Arts Center",
+                "rank": "9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.609612,
+                    -25.837608
+                ]
+            },
+            "properties": {
+                "name": "Geoff Neal",
+                "gym_location": "Fortis MMA",
+                "rank": "10"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.445516,
+                    44.809144
+                ]
+            },
+            "properties": {
+                "name": "Joaquin Buckley",
+                "gym_location": "Freestyle",
+                "rank": "11"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.98613,
+                    39.74001
+                ]
+            },
+            "properties": {
+                "name": "Neil Magny",
+                "gym_location": "Elevation Fight Team - Denver, CO",
+                "rank": "12"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.102879,
+                    26.3709205
+                ]
+            },
+            "properties": {
+                "name": "Vicente Luque",
+                "gym_location": "Blackzilians - Boca Raton, FL",
+                "rank": "13"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.612449,
+                    -33.423581
+                ]
+            },
+            "properties": {
+                "name": "Michael Page",
+                "gym_location": "75.00",
+                "rank": "14"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.825741,
+                    40.74338
+                ]
+            },
+            "properties": {
+                "name": "Kevin Holland",
+                "gym_location": "Kung Fu",
+                "rank": "15"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.609612,
+                    -25.837608
+                ]
+            },
+            "properties": {
+                "name": "Dricus Du Plessis",
+                "gym_location": "MMA",
+                "rank": "Champion"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.545213,
+                    34.100554
+                ]
+            },
+            "properties": {
+                "name": "Sean Strickland",
+                "gym_location": "Millennia MMA, Rancho, CA",
+                "rank": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.75294,
+                    -36.865604
+                ]
+            },
+            "properties": {
+                "name": "Israel Adesanya",
+                "gym_location": "City Kickboxing",
+                "rank": "2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.029661,
+                    -33.948677
+                ]
+            },
+            "properties": {
+                "name": "Robert Whittaker",
+                "gym_location": "PMA, Padstow NSW, Australia",
+                "rank": "3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3483915,
+                    48.8534951
+                ]
+            },
+            "properties": {
+                "name": "Nassourdine Imavov",
+                "gym_location": "Venum Training Camp Paris",
+                "rank": "4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -153.180996665583,
+                    64.6358675746153
+                ]
+            },
+            "properties": {
+                "name": "Jared Cannonier",
+                "gym_location": "ABJJ + Gracie Barra Alaska",
+                "rank": "5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.999588,
+                    33.7161
+                ]
+            },
+            "properties": {
+                "name": "Marvin Vettori",
+                "gym_location": "Kings MMA - Huntington Beach, CA",
+                "rank": "6"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.030244,
+                    -36.927555
+                ]
+            },
+            "properties": {
+                "name": "Brendan Allen",
+                "gym_location": "Kill Cliff FC",
+                "rank": "7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.490519,
+                    -13.011668
+                ]
+            },
+            "properties": {
+                "name": "Paulo Costa",
+                "gym_location": "Team Borracha",
+                "rank": "8"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.71859,
+                    32.4131
+                ]
+            },
+            "properties": {
+                "name": "Jack Hermansson",
+                "gym_location": "Frontline Academy - Oslo",
+                "rank": "9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.323575,
+                    36.226171
+                ]
+            },
+            "properties": {
+                "name": "Roman Dolidze",
+                "gym_location": "Xtreme Couture - Las Vegas, NV",
+                "rank": "10"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    100.276836,
+                    13.548154
+                ]
+            },
+            "properties": {
+                "name": "Khamzat Chimaev",
+                "gym_location": "74.00",
+                "rank": "11"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -46.659576,
+                    -23.530178
+                ]
+            },
+            "properties": {
+                "name": "Caio Borralho",
+                "gym_location": "Combat Club",
+                "rank": "12"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1714785,
+                    39.956826
+                ]
+            },
+            "properties": {
+                "name": "Michel Pereira",
+                "gym_location": "Overcome Academy",
+                "rank": "13"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -68.395309,
+                    18.662557
+                ]
+            },
+            "properties": {
+                "name": "Anthony Hernandez",
+                "gym_location": "Striker",
+                "rank": "14"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.323575,
+                    36.226171
+                ]
+            },
+            "properties": {
+                "name": "Chris Curtis",
+                "gym_location": "Xtreme Couture - Las Vegas, NV",
+                "rank": "15"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.390839,
+                    41.416771999999995
+                ]
+            },
+            "properties": {
+                "name": "Alex Pereira",
+                "gym_location": "Teixeira MMA & Fitness-Bethel, CT",
+                "rank": "Champion"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.074235,
+                    40.965341
+                ]
+            },
+            "properties": {
+                "name": "Ji\u0159\u00ed Proch\u00e1zka",
+                "gym_location": "JETSAAM GYM",
+                "rank": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.609612,
+                    -25.837608
+                ]
+            },
+            "properties": {
+                "name": "Magomed Ankalaev",
+                "gym_location": "MMA",
+                "rank": "2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.609612,
+                    -25.837608
+                ]
+            },
+            "properties": {
+                "name": "Jamahal Hill",
+                "gym_location": "MMA",
+                "rank": "3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.379213,
+                    45.096305
+                ]
+            },
+            "properties": {
+                "name": "Jan B\u0142achowicz",
+                "gym_location": "Gym information not found",
+                "rank": "4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.202009,
+                    26.297208
+                ]
+            },
+            "properties": {
+                "name": "Aleksandar Raki\u0107",
+                "gym_location": "American Top Team Zagreb",
+                "rank": "5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.24992,
+                    37.297172
+                ]
+            },
+            "properties": {
+                "name": "Nikita Krylov",
+                "gym_location": "Karate",
+                "rank": "6"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.048948,
+                    59.34866
+                ]
+            },
+            "properties": {
+                "name": "Volkan Oezdemir",
+                "gym_location": "Allstars Training Center",
+                "rank": "7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.244765,
+                    36.057018
+                ]
+            },
+            "properties": {
+                "name": "Khalil Rountree Jr.",
+                "gym_location": "Syndicate MMA - Las Vegas, NV",
+                "rank": "8"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.8148025,
+                    53.912293500000004
+                ]
+            },
+            "properties": {
+                "name": "Johnny Walker",
+                "gym_location": "SBG Ireland",
+                "rank": "9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.75294,
+                    -36.865604
+                ]
+            },
+            "properties": {
+                "name": "Carlos Ulberg",
+                "gym_location": "City Kickboxing",
+                "rank": "10"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95.934525,
+                    41.257595
+                ]
+            },
+            "properties": {
+                "name": "Anthony Smith",
+                "gym_location": "Mick Doyle's Kickboxing - Omaha, NE",
+                "rank": "11"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.609612,
+                    -25.837608
+                ]
+            },
+            "properties": {
+                "name": "Bogdan Guskov",
+                "gym_location": "MMA",
+                "rank": "12"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.390839,
+                    41.416771999999995
+                ]
+            },
+            "properties": {
+                "name": "Dominick Reyes",
+                "gym_location": "Teixeira MMA & Fitness-Bethel, CT",
+                "rank": "13"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.609612,
+                    -25.837608
+                ]
+            },
+            "properties": {
+                "name": "Azamat Murzakanov",
+                "gym_location": "MMA",
+                "rank": "14"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.445516,
+                    44.809144
+                ]
+            },
+            "properties": {
+                "name": "Alonzo Menifield",
+                "gym_location": "Freestyle",
+                "rank": "15"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.568225,
+                    33.209826
+                ]
+            },
+            "properties": {
+                "name": "Jon Jones",
+                "gym_location": "35",
+                "rank": "Champion"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.161754,
+                    19.386111
+                ]
+            },
+            "properties": {
+                "name": "Tom Aspinall",
+                "gym_location": "Team Kaobon",
+                "rank": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.283102,
+                    48.868455
+                ]
+            },
+            "properties": {
+                "name": "Ciryl Gane",
+                "gym_location": "MMA Factory - Paris, France",
+                "rank": "2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.181197,
+                    50.645261
+                ]
+            },
+            "properties": {
+                "name": "Alexander Volkov",
+                "gym_location": "Global Fight Gym",
+                "rank": "3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.609612,
+                    -25.837608
+                ]
+            },
+            "properties": {
+                "name": "Sergei Pavlovich",
+                "gym_location": "MMA",
+                "rank": "4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -88.01974,
+                    41.886932
+                ]
+            },
+            "properties": {
+                "name": "Curtis Blaydes",
+                "gym_location": "Dutch Style MMA/ UFC Gym Lombard IL",
+                "rank": "5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.17521,
+                    50.836905
+                ]
+            },
+            "properties": {
+                "name": "Stipe Miocic",
+                "gym_location": "Strongstyle Fight Team",
+                "rank": "6"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.438435,
+                    31.212586
+                ]
+            },
+            "properties": {
+                "name": "Jailton Almeida",
+                "gym_location": "Boxing",
+                "rank": "7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.116658,
+                    51.016884
+                ]
+            },
+            "properties": {
+                "name": "Marcin Tybura",
+                "gym_location": "S4 Warszawa",
+                "rank": "8"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.985191,
+                    34.144025
+                ]
+            },
+            "properties": {
+                "name": "Serghei Spivac",
+                "gym_location": "Polar Bear Team",
+                "rank": "9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.161754,
+                    19.386111
+                ]
+            },
+            "properties": {
+                "name": "Tai Tuivasa",
+                "gym_location": "Team Tuivasa",
+                "rank": "10"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.715549,
+                    44.416004
+                ]
+            },
+            "properties": {
+                "name": "Derrick Lewis",
+                "gym_location": "4oz Fight Club",
+                "rank": "11"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.431107,
+                    41.401486
+                ]
+            },
+            "properties": {
+                "name": "Jairzinho Rozenstruik",
+                "gym_location": "American Top Team",
+                "rank": "12"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.217313,
+                    51.770255
+                ]
+            },
+            "properties": {
+                "name": "Alexandr Romanov",
+                "gym_location": "Wrestler",
+                "rank": "13"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -46.642291,
+                    -23.572591
+                ]
+            },
+            "properties": {
+                "name": "Marcos Rogerio de Lima",
+                "gym_location": "011 MMA TEAM",
+                "rank": "14"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.431107,
+                    41.401486
+                ]
+            },
+            "properties": {
+                "name": "Rodrigo Nascimento",
+                "gym_location": "American Top Team",
+                "rank": "15"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.968357,
+                    39.730742
+                ]
+            },
+            "properties": {
+                "name": "Alexa Grasso",
+                "gym_location": "Lobo Gym MMA",
+                "rank": "Champion"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.968357,
+                    39.730742
+                ]
+            },
+            "properties": {
+                "name": "Alexa Grasso",
+                "gym_location": "Lobo Gym MMA",
+                "rank": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    98.813206,
+                    8.046092
+                ]
+            },
+            "properties": {
+                "name": "Zhang Weili",
+                "gym_location": "Muay Thai",
+                "rank": "2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    98.39086,
+                    7.882835
+                ]
+            },
+            "properties": {
+                "name": "Valentina Shevchenko",
+                "gym_location": "Tiger Muay Thai - Phuket, Thailand",
+                "rank": "3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.24992,
+                    37.297172
+                ]
+            },
+            "properties": {
+                "name": "Manon Fiorot",
+                "gym_location": "Karate",
+                "rank": "4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.42208,
+                    47.65903
+                ]
+            },
+            "properties": {
+                "name": "Julianna Pe\u00f1a",
+                "gym_location": "Sik-Jitsu Spokane, WA",
+                "rank": "5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -105.940268,
+                    39.60683
+                ]
+            },
+            "properties": {
+                "name": "Raquel Pennington",
+                "gym_location": "Colorado Springs BJJ",
+                "rank": "6"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -105.109354,
+                    39.776285
+                ]
+            },
+            "properties": {
+                "name": "Rose Namajunas",
+                "gym_location": "Grudge Training Center",
+                "rank": "7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.663302,
+                    41.003537
+                ]
+            },
+            "properties": {
+                "name": "Erin Blanchfield",
+                "gym_location": "Jiu-Jitsu",
+                "rank": "8"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.545213,
+                    34.100554
+                ]
+            },
+            "properties": {
+                "name": "Tatiana Suarez",
+                "gym_location": "Millennia MMA - Rancho Cucamonga, CA",
+                "rank": "9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.3912757,
+                    39.906217
+                ]
+            },
+            "properties": {
+                "name": "Yan Xiaonan",
+                "gym_location": "China Top Team Beijing",
+                "rank": "10"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -53.1382861008915,
+                    -4.04612783594293
+                ]
+            },
+            "properties": {
+                "name": "J\u00e9ssica Andrade",
+                "gym_location": "PRVT Para Vale Tudo",
+                "rank": "11"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.260694,
+                    37.82098
+                ]
+            },
+            "properties": {
+                "name": "Kayla Harrison",
+                "gym_location": "Judo",
+                "rank": "12"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.663302,
+                    41.003537
+                ]
+            },
+            "properties": {
+                "name": "Virna Jandiroba",
+                "gym_location": "Jiu-Jitsu",
+                "rank": "13"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.260694,
+                    37.82098
+                ]
+            },
+            "properties": {
+                "name": "Ketlen Vieira",
+                "gym_location": "Judo",
+                "rank": "14"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.547788,
+                    30.40204
+                ]
+            },
+            "properties": {
+                "name": "Amanda Lemos",
+                "gym_location": "Marajo Brothers",
+                "rank": "15"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    98.813206,
+                    8.046092
+                ]
+            },
+            "properties": {
+                "name": "Zhang Weili",
+                "gym_location": "Muay Thai",
+                "rank": "Champion"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.545213,
+                    34.100554
+                ]
+            },
+            "properties": {
+                "name": "Tatiana Suarez",
+                "gym_location": "Millennia MMA - Rancho Cucamonga, CA",
+                "rank": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.3912757,
+                    39.906217
+                ]
+            },
+            "properties": {
+                "name": "Yan Xiaonan",
+                "gym_location": "China Top Team Beijing",
+                "rank": "2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.663302,
+                    41.003537
+                ]
+            },
+            "properties": {
+                "name": "Virna Jandiroba",
+                "gym_location": "Jiu-Jitsu",
+                "rank": "3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -53.1382861008915,
+                    -4.04612783594293
+                ]
+            },
+            "properties": {
+                "name": "J\u00e9ssica Andrade",
+                "gym_location": "PRVT Para Vale Tudo",
+                "rank": "4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.547788,
+                    30.40204
+                ]
+            },
+            "properties": {
+                "name": "Amanda Lemos",
+                "gym_location": "Marajo Brothers",
+                "rank": "5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    98.813206,
+                    8.046092
+                ]
+            },
+            "properties": {
+                "name": "Marina Rodriguez",
+                "gym_location": "Muay Thai",
+                "rank": "6"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.825935,
+                    40.21764
+                ]
+            },
+            "properties": {
+                "name": "Mackenzie Dern",
+                "gym_location": "Megaton Dias BJJ",
+                "rank": "7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.260694,
+                    37.82098
+                ]
+            },
+            "properties": {
+                "name": "Amanda Ribas",
+                "gym_location": "Judo",
+                "rank": "8"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    98.813206,
+                    8.046092
+                ]
+            },
+            "properties": {
+                "name": "Angela Hill",
+                "gym_location": "Muay Thai",
+                "rank": "9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -69.321993,
+                    10.077764
+                ]
+            },
+            "properties": {
+                "name": "Loopy Godinez",
+                "gym_location": "30",
+                "rank": "10"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.260694,
+                    37.82098
+                ]
+            },
+            "properties": {
+                "name": "Tabatha Ricci",
+                "gym_location": "Judo",
+                "rank": "11"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.260694,
+                    37.82098
+                ]
+            },
+            "properties": {
+                "name": "Luana Pinheiro",
+                "gym_location": "Judo",
+                "rank": "12"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.609612,
+                    -25.837608
+                ]
+            },
+            "properties": {
+                "name": "Gillian Robertson",
+                "gym_location": "MMA",
+                "rank": "13"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -68.395309,
+                    18.662557
+                ]
+            },
+            "properties": {
+                "name": "Iasmin Lucindo",
+                "gym_location": "Striker",
+                "rank": "14"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.661135,
+                    52.238667
+                ]
+            },
+            "properties": {
+                "name": "Karolina Kowalkiewicz",
+                "gym_location": "Gracie Barra Lodz",
+                "rank": "15"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.968357,
+                    39.730742
+                ]
+            },
+            "properties": {
+                "name": "Alexa Grasso",
+                "gym_location": "Lobo Gym MMA",
+                "rank": "Champion"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    98.39086,
+                    7.882835
+                ]
+            },
+            "properties": {
+                "name": "Valentina Shevchenko",
+                "gym_location": "Tiger Muay Thai - Phuket, Thailand",
+                "rank": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.24992,
+                    37.297172
+                ]
+            },
+            "properties": {
+                "name": "Manon Fiorot",
+                "gym_location": "Karate",
+                "rank": "2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.663302,
+                    41.003537
+                ]
+            },
+            "properties": {
+                "name": "Erin Blanchfield",
+                "gym_location": "Jiu-Jitsu",
+                "rank": "3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.26126,
+                    2.182126
+                ]
+            },
+            "properties": {
+                "name": "Maycee Barber",
+                "gym_location": "Team Alpha Male",
+                "rank": "4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -105.109354,
+                    39.776285
+                ]
+            },
+            "properties": {
+                "name": "Rose Namajunas",
+                "gym_location": "Grudge Training Center",
+                "rank": "5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -53.1382861008915,
+                    -4.04612783594293
+                ]
+            },
+            "properties": {
+                "name": "J\u00e9ssica Andrade",
+                "gym_location": "PRVT Para Vale Tudo",
+                "rank": "6"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.993678,
+                    40.748975
+                ]
+            },
+            "properties": {
+                "name": "Katlyn Cerminara",
+                "gym_location": "Renzo Gracie Academy",
+                "rank": "7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -46.623031,
+                    -23.504627
+                ]
+            },
+            "properties": {
+                "name": "Natalia Silva",
+                "gym_location": "Taekwondo",
+                "rank": "8"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.260694,
+                    37.82098
+                ]
+            },
+            "properties": {
+                "name": "Amanda Ribas",
+                "gym_location": "Judo",
+                "rank": "9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.609612,
+                    -25.837608
+                ]
+            },
+            "properties": {
+                "name": "Viviane Ara\u00fajo",
+                "gym_location": "MMA",
+                "rank": "10"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.31669,
+                    -5.748406
+                ]
+            },
+            "properties": {
+                "name": "Karine Silva",
+                "gym_location": "Gile Ribeiro - Curitiba, Brazil",
+                "rank": "11"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.609612,
+                    -25.837608
+                ]
+            },
+            "properties": {
+                "name": "Tracy Cortez",
+                "gym_location": "MMA",
+                "rank": "12"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.379213,
+                    45.096305
+                ]
+            },
+            "properties": {
+                "name": "Ariane da Silva",
+                "gym_location": "Gym information not found",
+                "rank": "13"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.386412,
+                    43.669629
+                ]
+            },
+            "properties": {
+                "name": "Jasmine Jasudavicius",
+                "gym_location": "Niagara Top Team",
+                "rank": "14"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.379213,
+                    45.096305
+                ]
+            },
+            "properties": {
+                "name": "Casey O'Neill",
+                "gym_location": "Gym information not found",
+                "rank": "15"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -105.940268,
+                    39.60683
+                ]
+            },
+            "properties": {
+                "name": "Raquel Pennington",
+                "gym_location": "Colorado Springs BJJ",
+                "rank": "Champion"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.42208,
+                    47.65903
+                ]
+            },
+            "properties": {
+                "name": "Julianna Pe\u00f1a",
+                "gym_location": "Sik-Jitsu Spokane, WA",
+                "rank": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.260694,
+                    37.82098
+                ]
+            },
+            "properties": {
+                "name": "Ketlen Vieira",
+                "gym_location": "Judo",
+                "rank": "2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.260694,
+                    37.82098
+                ]
+            },
+            "properties": {
+                "name": "Kayla Harrison",
+                "gym_location": "Judo",
+                "rank": "3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -68.395309,
+                    18.662557
+                ]
+            },
+            "properties": {
+                "name": "Irene Aldana",
+                "gym_location": "Striker",
+                "rank": "4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.609612,
+                    -25.837608
+                ]
+            },
+            "properties": {
+                "name": "Macy Chiasson",
+                "gym_location": "Fortis MMA",
+                "rank": "5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -68.395309,
+                    18.662557
+                ]
+            },
+            "properties": {
+                "name": "Mayra Bueno Silva",
+                "gym_location": "Striker",
+                "rank": "6"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -98.13104,
+                    19.428492
+                ]
+            },
+            "properties": {
+                "name": "Holly Holm",
+                "gym_location": "Joel Diaz Boxing",
+                "rank": "7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    98.813206,
+                    8.046092
+                ]
+            },
+            "properties": {
+                "name": "Karol Rosa",
+                "gym_location": "Muay Thai",
+                "rank": "8"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.323575,
+                    36.226171
+                ]
+            },
+            "properties": {
+                "name": "Miesha Tate",
+                "gym_location": "Xtreme Couture - Las Vegas, NV",
+                "rank": "9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.131015,
+                    25.784059
+                ]
+            },
+            "properties": {
+                "name": "Norma Dumont",
+                "gym_location": "33",
+                "rank": "10"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.609612,
+                    -25.837608
+                ]
+            },
+            "properties": {
+                "name": "Pannie Kianzad",
+                "gym_location": "MMA",
+                "rank": "11"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.431107,
+                    41.401486
+                ]
+            },
+            "properties": {
+                "name": "Yana Santos",
+                "gym_location": "American Top Team",
+                "rank": "12"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.592364,
+                    -1.617179
+                ]
+            },
+            "properties": {
+                "name": "Julia Avila",
+                "gym_location": "36",
+                "rank": "13"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.609612,
+                    -25.837608
+                ]
+            },
+            "properties": {
+                "name": "Chelsea Chandler",
+                "gym_location": "MMA",
+                "rank": "14"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.412035,
+                    51.939472
+                ]
+            },
+            "properties": {
+                "name": "Germaine de Randamie",
+                "gym_location": "Team Germaine- csa Holland",
+                "rank": "15"
+            }
+        }
+    ]
+}

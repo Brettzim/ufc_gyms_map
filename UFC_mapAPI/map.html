@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Mapbox Example with GeoJSON Pins</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <style>
+        body { margin: 0; padding: 0; }
+        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+    </style>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.7.1/mapbox-gl.css" rel="stylesheet" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.7.1/mapbox-gl.js"></script>
+</head>
+<body>
+    <div id="map"></div>
+    <script>
+        // Replace 'YOUR_MAPBOX_ACCESS_TOKEN' with your Mapbox access token
+        mapboxgl.accessToken = 'pk.eyJ1IjoiYnJldHR6aW0iLCJhIjoiY2x6OTc0ZDBuMDRkaDJqcG40d3g1anE4aiJ9.XQvs8Hg7pOcp6FiIsG_PgQ';
+
+        // Initialize the map
+        const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            center: [-98.5795, 39.8283], // Center of the map (longitude, latitude)
+            zoom: 3
+        });
+
+        // Load the GeoJSON file
+        fetch('data/fighter_gyms_2024-07-30.geojson')
+            .then(response => response.json())
+            .then(geojsonData => {
+                // Add the GeoJSON data to the map
+                map.on('load', () => {
+                    map.addSource('places', {
+                        'type': 'geojson',
+                        'data': geojsonData
+                    });
+
+                    map.addLayer({
+                        'id': 'places-layer',
+                        'type': 'symbol',
+                        'source': 'places',
+                        'layout': {
+                            'icon-image': 'marker-15', // Mapbox default icon
+                            'text-field': '{name}',
+                            'text-offset': [0, 0.6],
+                            'text-anchor': 'top'
+                        }
+                    });
+
+                    // Add popups
+                    map.on('click', 'places-layer', (e) => {
+                        const coordinates = e.features[0].geometry.coordinates.slice();
+                        const description = e.features[0].properties.gym;
+
+                        new mapboxgl.Popup()
+                            .setLngLat(coordinates)
+                            .setHTML(`<strong>${e.features[0].properties.name}</strong><p>${description}</p>`)
+                            .addTo(map);
+                    });
+
+                    // Change the cursor to a pointer when the mouse is over the places layer
+                    map.on('mouseenter', 'places-layer', () => {
+                        map.getCanvas().style.cursor = 'pointer';
+                    });
+
+                    // Change it back to a pointer when it leaves
+                    map.on('mouseleave', 'places-layer', () => {
+                        map.getCanvas().style.cursor = '';
+                    });
+                });
+            })
+            .catch(error => console.error('Error loading GeoJSON:', error));
+    </script>
+</body>
+</html>
