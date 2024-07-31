@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "gym_location": "American Top Team",
-        "fighters": "Alexandre Pantoja (Flyweight - Champion)<br>Cody Durden (Flyweight - 15)<br>Mateusz Gamrot (Lightweight - 5)<br>Renato Moicano (Lightweight - 10)<br>Jairzinho Rozenstruik (Heavyweight - 12)<br>Rodrigo Nascimento (Heavyweight - 15)<br>Yana Santos (Women's Bantamweight - 12)"
+        "fighters": "Alexandre Pantoja (Flyweight - Champion)<br>Cody Durden (Flyweight - 15)<br>Dustin Poirier (Lightweight - 4)<br>Mateusz Gamrot (Lightweight - 5)<br>Renato Moicano (Lightweight - 10)<br>Aleksandar Raki\u0107 (Light Heavyweight - 5)<br>Jairzinho Rozenstruik (Heavyweight - 12)<br>Rodrigo Nascimento (Heavyweight - 15)<br>Yana Santos (Women's Bantamweight - 12)"
       },
       "geometry": {
         "type": "Point",
@@ -46,8 +46,8 @@
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "Xtreme Couture - Las Vegas, NV",
-        "fighters": "Amir Albazi (Flyweight - 3)<br>Manel Kape (Flyweight - 9)<br>Roman Dolidze (Middleweight - 10)<br>Chris Curtis (Middleweight - 15)<br>Miesha Tate (Women's Bantamweight - 9)"
+        "gym_location": "Xtreme Couture",
+        "fighters": "Amir Albazi (Flyweight - 3)<br>Manel Kape (Flyweight - 9)<br>Sean Strickland (Middleweight - 1)<br>Roman Dolidze (Middleweight - 10)<br>Chris Curtis (Middleweight - 15)<br>Miesha Tate (Women's Bantamweight - 9)"
       },
       "geometry": {
         "type": "Point",
@@ -61,7 +61,7 @@
       "type": "Feature",
       "properties": {
         "gym_location": "City Kickboxing",
-        "fighters": "Kai Kara-France (Flyweight - 4)<br>Israel Adesanya (Middleweight - 2)<br>Carlos Ulberg (Light Heavyweight - 10)"
+        "fighters": "Kai Kara-France (Flyweight - 4)<br>Dan Hooker (Lightweight - 11)<br>Israel Adesanya (Middleweight - 2)<br>Carlos Ulberg (Light Heavyweight - 10)"
       },
       "geometry": {
         "type": "Point",
@@ -89,7 +89,7 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Syndicate MMA",
-        "fighters": "Alex Perez (Flyweight - 6)"
+        "fighters": "Alex Perez (Flyweight - 6)<br>Arman Tsarukyan (Lightweight - 1)<br>Khalil Rountree Jr. (Light Heavyweight - 8)"
       },
       "geometry": {
         "type": "Point",
@@ -116,14 +116,14 @@
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "Nova Uniao - Rio de Janeiro",
+        "gym_location": "Nova Uniao",
         "fighters": "Matheus Nicolau (Flyweight - 8)"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.1776715,
-          -22.936483
+          -43.57897,
+          -22.8132069
         ]
       }
     },
@@ -136,8 +136,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          158.2470669,
-          -31.43803723
+          1.0,
+          1.0
         ]
       }
     },
@@ -200,28 +200,28 @@
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "MMA LAB - Glendale, AZ",
-        "fighters": "Sean O'Malley (Bantamweight - Champion)"
+        "gym_location": "The MMA Lab",
+        "fighters": "Sean O'Malley (Bantamweight - Champion)<br>Kyler Phillips (Bantamweight - 11)<br>Mario Bautista (Bantamweight - 12)"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -112.18309,
-          33.53855
+          -112.1172716,
+          33.64263601
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "Team Serra/Longo",
-        "fighters": "Merab Dvalishvili (Bantamweight - 1)"
+        "gym_location": "Serra-Longo MMA",
+        "fighters": "Merab Dvalishvili (Bantamweight - 1)<br>Aljamain Sterling (Featherweight - 8)"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.61151018,
-          40.72908221
+          -73.253616,
+          40.805805
         ]
       }
     },
@@ -271,7 +271,7 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Team Alpha Male",
-        "fighters": "Song Yadong (Bantamweight - 7)<br>Maycee Barber (Women's Flyweight - 4)"
+        "fighters": "Song Yadong (Bantamweight - 7)<br>Josh Emmett (Featherweight - 7)<br>Maycee Barber (Women's Flyweight - 4)"
       },
       "geometry": {
         "type": "Point",
@@ -298,21 +298,7 @@
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "The MMA Lab",
-        "fighters": "Kyler Phillips (Bantamweight - 11)<br>Mario Bautista (Bantamweight - 12)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -112.1172716,
-          33.64263601
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "gym_location": "Alliance Training Center East -Santee",
+        "gym_location": "Alliance Training Center",
         "fighters": "Dominick Cruz (Bantamweight - 13)"
       },
       "geometry": {
@@ -346,8 +332,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.125668,
-          40.096742
+          1.0,
+          1.0
         ]
       }
     },
@@ -368,7 +354,7 @@
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "Hawaii Elite MMA - Hawaii",
+        "gym_location": "Hawaii Elite MMA",
         "fighters": "Max Holloway (Featherweight - 2)<br>Max Holloway (Lightweight - 9)"
       },
       "geometry": {
@@ -402,36 +388,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.061008,
-          -34.86904
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "gym_location": "Team Alpha Male  (Urijah Faber's Ultimate Fitness)",
-        "fighters": "Josh Emmett (Featherweight - 7)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.1578606,
-          0.9174313
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "gym_location": "Serra-Longo - Long Island, NY",
-        "fighters": "Aljamain Sterling (Featherweight - 8)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.253616,
-          40.805805
+          -87.98901365,
+          41.91844052
         ]
       }
     },
@@ -453,7 +411,7 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Kings MMA",
-        "fighters": "Giga Chikadze (Featherweight - 10)"
+        "fighters": "Giga Chikadze (Featherweight - 10)<br>Beneil Dariush (Lightweight - 7)<br>Rafael Dos Anjos (Lightweight - 14)<br>Marvin Vettori (Middleweight - 6)"
       },
       "geometry": {
         "type": "Point",
@@ -472,29 +430,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -112.45047,
-          42.908025
+          -2.150892964,
+          53.39571722
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "Ricardo Almeida / Valor MMA",
+        "gym_location": "Ricardo Almeida BJJ",
         "fighters": "Edson Barboza (Featherweight - 15)"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -46.668756,
-          -23.562981
+          -74.6073244,
+          40.2240597
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "AKA (American Kickboxing Academy) San Jose",
+        "gym_location": "American Kickboxing Academy",
         "fighters": "Islam Makhachev (Lightweight - Champion)"
       },
       "geometry": {
@@ -508,28 +466,14 @@
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "Syndicate MMA - Las Vegas, NV",
-        "fighters": "Arman Tsarukyan (Lightweight - 1)<br>Khalil Rountree Jr. (Light Heavyweight - 8)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.244765,
-          36.057018
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "gym_location": "Bronx's Gold Team",
         "fighters": "Charles Oliveira (Lightweight - 2)"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.202789,
-          40.711273
+          -46.28054161,
+          -23.96671284
         ]
       }
     },
@@ -537,27 +481,13 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Genesis Training Center",
-        "fighters": "Justin Gaethje (Lightweight - 3)"
+        "fighters": "Justin Gaethje (Lightweight - 3)<br>Kamaru Usman (Welterweight - 2)<br>Rose Namajunas (Women's Pound-for-Pound Top Rank - 7)<br>Rose Namajunas (Women's Flyweight - 5)"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.401413,
-          35.497055
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "gym_location": "American Top Team ATT Coconut Creek, FL",
-        "fighters": "Dustin Poirier (Lightweight - 4)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.202009,
-          26.297208
+          -105.1410552,
+          39.79167202
         ]
       }
     },
@@ -565,34 +495,20 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Sanford MMA",
-        "fighters": "Michael Chandler (Lightweight - 6)"
+        "fighters": "Michael Chandler (Lightweight - 6)<br>Shavkat Rakhmonov (Welterweight - 3)<br>Gilbert Burns (Welterweight - 6)<br>Brendan Allen (Middleweight - 7)"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -81.320173,
-          28.811337
+          -80.11193155,
+          26.32257487
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "Kings MMA - Huntington Beach, CA",
-        "fighters": "Beneil Dariush (Lightweight - 7)<br>Rafael Dos Anjos (Lightweight - 14)<br>Marvin Vettori (Middleweight - 6)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.999588,
-          33.7161
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "gym_location": "Tiger Muay Thai - Phuket, Thailand",
+        "gym_location": "Tiger Muay Thai",
         "fighters": "Rafael Fiziev (Lightweight - 8)<br>Valentina Shevchenko (Women's Pound-for-Pound Top Rank - 3)<br>Valentina Shevchenko (Women's Flyweight - 1)"
       },
       "geometry": {
@@ -600,20 +516,6 @@
         "coordinates": [
           98.39086,
           7.882835
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "gym_location": "Saigon Sports Club- Vietnam",
-        "fighters": "Dan Hooker (Lightweight - 11)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.728993,
-          10.739537
         ]
       }
     },
@@ -640,8 +542,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.773006,
-          -36.853851
+          -2.969278271,
+          53.41079426
         ]
       }
     },
@@ -668,43 +570,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.973942,
-          40.760587
+          -1.826942902,
+          52.52866882
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "Blackzilians - Boca Raton, FL",
-        "fighters": "Kamaru Usman (Welterweight - 2)<br>Vicente Luque (Welterweight - 13)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.102879,
-          26.3709205
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "gym_location": "Kill Cliff FC",
-        "fighters": "Shavkat Rakhmonov (Welterweight - 3)<br>Brendan Allen (Middleweight - 7)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.030244,
-          -36.927555
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "gym_location": "MMA Masters - Miami, FL",
+        "gym_location": "MMA Masters",
         "fighters": "Colby Covington (Welterweight - 4)"
       },
       "geometry": {
@@ -718,28 +592,14 @@
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "Jaco Hybrid Training Center",
-        "fighters": "Gilbert Burns (Welterweight - 6)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.774374,
-          35.704535
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "gym_location": "Upstate Karate Family Martial Arts Center",
         "fighters": "Stephen Thompson (Welterweight - 9)"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.774926,
-          42.565902
+          -82.27737718,
+          34.74091383
         ]
       }
     },
@@ -760,7 +620,7 @@
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "Elevation Fight Team - Denver, CO",
+        "gym_location": "Elevation Fight Team",
         "fighters": "Neil Magny (Welterweight - 12)"
       },
       "geometry": {
@@ -768,6 +628,20 @@
         "coordinates": [
           -104.98613,
           39.74001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym_location": "Blackzilians - Boca Raton, FL",
+        "fighters": "Vicente Luque (Welterweight - 13)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.102879,
+          26.3709205
         ]
       }
     },
@@ -794,22 +668,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.825741,
-          40.74338
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "gym_location": "Millennia MMA, Rancho, CA",
-        "fighters": "Sean Strickland (Middleweight - 1)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.545213,
-          34.100554
+          1.0,
+          1.0
         ]
       }
     },
@@ -836,8 +696,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -153.1809967,
-          64.63586757
+          -149.8905958,
+          61.17476197
         ]
       }
     },
@@ -850,22 +710,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -38.490519,
-          -13.011668
+          -44.05171715,
+          -19.93589311
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "Frontline Academy - Oslo",
+        "gym_location": "Frontline Academy",
         "fighters": "Jack Hermansson (Middleweight - 9)"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -93.71859,
-          32.4131
+          10.72572884,
+          59.9271348
         ]
       }
     },
@@ -920,15 +780,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.395309,
-          18.662557
+          1.0,
+          1.0
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "Teixeira MMA & Fitness-Bethel, CT",
+        "gym_location": "Teixeira MMA & Fitness",
         "fighters": "Alex Pereira (Light Heavyweight - Champion)<br>Dominick Reyes (Light Heavyweight - 13)"
       },
       "geometry": {
@@ -948,22 +808,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.074235,
-          40.965341
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "gym_location": "American Top Team Zagreb",
-        "fighters": "Aleksandar Raki\u0107 (Light Heavyweight - 5)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.202009,
-          26.297208
+          16.66168169,
+          49.20596183
         ]
       }
     },
@@ -976,8 +822,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.24992,
-          37.297172
+          1.0,
+          1.0
         ]
       }
     },
@@ -1046,15 +892,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.161754,
-          19.386111
+          -2.806006674,
+          53.44927092
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "MMA Factory - Paris, France",
+        "gym_location": "MMA Factory - Paris",
         "fighters": "Ciryl Gane (Heavyweight - 2)"
       },
       "geometry": {
@@ -1074,8 +920,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.181197,
-          50.645261
+          37.61780675,
+          55.6955642
         ]
       }
     },
@@ -1102,8 +948,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.17521,
-          50.836905
+          -81.64389972,
+          41.41489923
         ]
       }
     },
@@ -1130,8 +976,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.985191,
-          34.144025
+          1.0,
+          1.0
         ]
       }
     },
@@ -1144,8 +990,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.161754,
-          19.386111
+          1.0,
+          1.0
         ]
       }
     },
@@ -1158,8 +1004,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.715549,
-          44.416004
+          -95.58599864,
+          29.95585439
         ]
       }
     },
@@ -1172,8 +1018,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.217313,
-          51.770255
+          1.0,
+          1.0
         ]
       }
     },
@@ -1200,8 +1046,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.968357,
-          39.730742
+          -103.4527534,
+          20.57232357
         ]
       }
     },
@@ -1214,8 +1060,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          98.813206,
-          8.046092
+          1.0,
+          1.0
         ]
       }
     },
@@ -1250,21 +1096,7 @@
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "Grudge Training Center",
-        "fighters": "Rose Namajunas (Women's Pound-for-Pound Top Rank - 7)<br>Rose Namajunas (Women's Flyweight - 5)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -105.109354,
-          39.776285
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "gym_location": "Millennia MMA - Rancho Cucamonga, CA",
+        "gym_location": "Millennia MMA",
         "fighters": "Tatiana Suarez (Women's Pound-for-Pound Top Rank - 9)<br>Tatiana Suarez (Women's Strawweight - 1)"
       },
       "geometry": {
@@ -1312,8 +1144,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.260694,
-          37.82098
+          1.0,
+          1.0
         ]
       }
     },
@@ -1326,8 +1158,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -9.547788,
-          30.40204
+          -48.47542709,
+          -1.466562892
         ]
       }
     },
@@ -1340,8 +1172,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.825935,
-          40.21764
+          -112.0119644,
+          33.5815987
         ]
       }
     },
@@ -1396,8 +1228,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -46.623031,
-          -23.504627
+          1.0,
+          1.0
         ]
       }
     },
@@ -1410,8 +1242,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.31669,
-          -5.748406
+          -49.26036629,
+          -25.43034523
         ]
       }
     },
@@ -1480,8 +1312,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.412035,
-          51.939472
+          5.657705189,
+          51.48127727
         ]
       }
     }
