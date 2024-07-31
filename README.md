@@ -1,5 +1,5 @@
-# ufc_gyms_map
-A data visualization using Google Maps API. Data is collected from the information currently on ufc.com/rankings
+# Map of where ranked UFC fighters train
+A data visualization using Map Box API. Data is collected from the information currently on ufc.com/rankings
 To see the map, you must have a Google Maps API key.
 To use: run the python script, and then open the map.html.
 
