@@ -228,14 +228,14 @@
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "High Altitude Martial Arts",
-        "fighters": "Cory Sandhagen (Bantamweight - 2)<br>Neil Magny (Welterweight - 12)"
+        "gym_location": "Elevation Fight Team",
+        "fighters": "Cory Sandhagen (Bantamweight - 2)<br>Neil Magny (Welterweight - 12)<br>Curtis Blaydes (Heavyweight - 5)"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.8820601,
-          39.65210687
+          -104.8644463,
+          39.66549815
         ]
       }
     },
@@ -326,13 +326,13 @@
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "Alliance Training Center",
-        "fighters": "Dominick Cruz (Bantamweight - 13)"
+        "gym_location": "Alliance MMA",
+        "fighters": "Dominick Cruz (Bantamweight - 13)<br>Angela Hill (Women's Strawweight - 9)"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.962258,
+          -116.96226,
           32.847002
         ]
       }
@@ -410,28 +410,28 @@
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "Izzystyle wrestling & VFS Chicago",
-        "fighters": "Yair Rodriguez (Featherweight - 4)"
+        "gym_location": "Valle Flow Striking Academy",
+        "fighters": "Yair Rodriguez (Featherweight - 4)<br>Belal Muhammad (Welterweight - Champion)"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.98901365,
-          41.91844052
+          -87.93916593,
+          41.97064334
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "BKK / Tristar",
+        "gym_location": "BKK Fighters",
         "fighters": "Arnold Allen (Featherweight - 5)"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          100.7502555,
-          13.68970625
+          0.928578759,
+          51.88563525
         ]
       }
     },
@@ -558,20 +558,6 @@
         "coordinates": [
           -2.969278271,
           53.41079426
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "gym_location": "Roufusport, (Mikwaukee, WI) & Chicago Fight Team (Chicago, IL)",
-        "fighters": "Belal Muhammad (Welterweight - Champion)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.2049,
-          41.884636
         ]
       }
     },
@@ -943,7 +929,7 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Jackson Wink MMA",
-        "fighters": "Jon Jones (Heavyweight - Champion)<br>Angela Hill (Women's Strawweight - 9)<br>Holly Holm (Women's Bantamweight - 7)"
+        "fighters": "Jon Jones (Heavyweight - Champion)<br>Holly Holm (Women's Bantamweight - 7)"
       },
       "geometry": {
         "type": "Point",
@@ -992,20 +978,6 @@
         "coordinates": [
           37.61780675,
           55.6955642
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "gym_location": "Dutch Style MMA/ UFC Gym Lombard IL",
-        "fighters": "Curtis Blaydes (Heavyweight - 5)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.01974,
-          41.886932
         ]
       }
     },
