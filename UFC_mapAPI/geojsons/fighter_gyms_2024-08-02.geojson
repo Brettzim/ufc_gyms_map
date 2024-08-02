@@ -38,8 +38,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.609612,
-          -25.837608
+          -96.78554577,
+          32.78733641
         ]
       }
     },
@@ -47,7 +47,7 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Xtreme Couture",
-        "fighters": "Amir Albazi (Flyweight - 3)<br>Manel Kape (Flyweight - 9)<br>Dan Ige (Featherweight - 14)<br>Sean Strickland (Middleweight - 1)<br>Roman Dolidze (Middleweight - 10)<br>Chris Curtis (Middleweight - 15)<br>Magomed Ankalaev (Light Heavyweight - 2)<br>Casey O'Neill (Women's Flyweight - 15)<br>Miesha Tate (Women's Bantamweight - 9)"
+        "fighters": "Amir Albazi (Flyweight - 3)<br>Manel Kape (Flyweight - 9)<br>Dan Ige (Featherweight - 14)<br>Sean Strickland (Middleweight - 1)<br>Roman Dolidze (Middleweight - 10)<br>Michel Pereira (Middleweight - 13)<br>Chris Curtis (Middleweight - 15)<br>Magomed Ankalaev (Light Heavyweight - 2)<br>Casey O'Neill (Women's Flyweight - 15)<br>Miesha Tate (Women's Bantamweight - 9)"
       },
       "geometry": {
         "type": "Point",
@@ -313,7 +313,7 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Sityodtong - Boston",
-        "fighters": "Rob Font (Bantamweight - 9)"
+        "fighters": "Rob Font (Bantamweight - 9)<br>Calvin Kattar (Featherweight - 9)"
       },
       "geometry": {
         "type": "Point",
@@ -438,20 +438,6 @@
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "New England MMA",
-        "fighters": "Calvin Kattar (Featherweight - 9)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.265102,
-          53.367321
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "gym_location": "Kings MMA",
         "fighters": "Giga Chikadze (Featherweight - 10)<br>Beneil Dariush (Lightweight - 7)<br>Rafael Dos Anjos (Lightweight - 14)<br>Marvin Vettori (Middleweight - 6)"
       },
@@ -556,8 +542,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.3483915,
-          48.8534951
+          2.359206637,
+          48.74385346
         ]
       }
     },
@@ -592,14 +578,14 @@
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "UTC Ultimate Training Centre Birmingham",
+        "gym_location": "\tTeam Renegade",
         "fighters": "Leon Edwards (Welterweight - 1)"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.826942902,
-          52.52866882
+          -1.992423394,
+          52.39588034
         ]
       }
     },
@@ -802,20 +788,6 @@
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "Overcome Academy",
-        "fighters": "Michel Pereira (Middleweight - 13)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.1714785,
-          39.956826
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "gym_location": "Marinoble's Martial Arts",
         "fighters": "Anthony Hernandez (Middleweight - 14)"
       },
@@ -831,7 +803,7 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Teixeira MMA & Fitness",
-        "fighters": "Alex Pereira (Light Heavyweight - Champion)<br>Dominick Reyes (Light Heavyweight - 13)"
+        "fighters": "Alex Pereira (Light Heavyweight - Champion)"
       },
       "geometry": {
         "type": "Point",
@@ -906,8 +878,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.8148025,
-          53.9122935
+          -6.322290578,
+          53.33647107
         ]
       }
     },
@@ -920,8 +892,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.934525,
-          41.257595
+          -96.03178629,
+          41.29149244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym_location": "Corba Kai",
+        "fighters": "Dominick Reyes (Light Heavyweight - 13)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3398549,
+          34.47269465
         ]
       }
     },
@@ -1438,8 +1424,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.3444866,
-          38.95638557
+          -121.9374198,
+          37.98658084
         ]
       }
     },

@@ -32,7 +32,7 @@ body { margin: 0; padding: 0; }
         map.addSource('places', {
             type: 'geojson',
             // Use a URL for the value for the `data` property.
-            data: 'https://raw.githubusercontent.com/Brettzim/ufc_gyms_map/main/UFC_mapAPI/geojsons/fighter_gyms_2024-08-01.geojson'
+            data: 'https://raw.githubusercontent.com/Brettzim/ufc_gyms_map/main/UFC_mapAPI/geojsons/fighter_gyms_2024-08-02.geojson'
         });
 
         map.addLayer({
@@ -54,7 +54,7 @@ body { margin: 0; padding: 0; }
 
                         new mapboxgl.Popup()
                             .setLngLat(coordinates)
-                            .setHTML(`<strong>Gym: ${e.features[0].properties.gym_location}</strong><p>Fighters: ${description}</p>`)
+                            .setHTML(`<strong>Gym: ${e.features[0].properties.gym_location}</strong><p><u>Fighters:</u></p> <p>${description}</p>`)
                             .addTo(map);
                     });
 
