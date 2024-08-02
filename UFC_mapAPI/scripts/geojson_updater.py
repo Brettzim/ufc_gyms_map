@@ -36,6 +36,7 @@ for grouping in soup.select('.view-grouping'):
         rankings[weight_class][rank] = name
 
 del rankings["Men's Pound-for-Pound Top Rank"]
+del rankings["Women's Pound-for-Pound Top Rank"]
 
 # Read the master table
 master_file_path = '../csvs/fighter_gyms_master.csv'
@@ -56,50 +57,43 @@ for weight_class, athletes in rankings.items():
                 'longitude': gym_info['longitude']
             }
 
+# Group fighters by gym
+gym_dict = defaultdict(lambda: {'latitude': None, 'longitude': None, 'fighters': []})
 
-# Aggregate fighters by gym
-gyms = defaultdict(lambda: {'fighters': [], 'latitude': None, 'longitude': None})
+for weight_class, fighters in rankings.items():
+    for rank, fighter_info in fighters.items():
+        gym = fighter_info['gym']
+        gym_dict[gym]['latitude'] = fighter_info['latitude']
+        gym_dict[gym]['longitude'] = fighter_info['longitude']
+        gym_dict[gym]['fighters'].append(f"{fighter_info['name']} ({weight_class} - {rank})")
 
-for weight_class, athletes in rankings.items():
-    for rank, details in athletes.items():
-        if isinstance(details, dict):  # Ensure details is a dictionary
-            gym = details.get('gym', None)
-            if gym:
-                gyms[gym]['fighters'].append({
-                    'Name': details.get('name', 'Unknown'),
-                    'Rank': rank,
-                    'Weight Class': weight_class
-                })
-                gyms[gym]['latitude'] = details.get('latitude', None)
-                gyms[gym]['longitude'] = details.get('longitude', None)
+# Generate GeoJSON features
+features = []
+for gym, info in gym_dict.items():
+    features.append({
+        "type": "Feature",
+        "properties": {
+            "gym_location": gym,
+            "fighters": "<br>".join(info['fighters'])
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                info['longitude'],
+                info['latitude']
+            ]
+        }
+    })
 
-# Convert aggregated gym data to GeoJSON
-def gyms_to_geojson(gyms):
-    geojson = {'type': 'FeatureCollection', 'features': []}
-    
-    for gym, data in gyms.items():
-        if data['latitude'] is not None and data['longitude'] is not None:  # Ensure we have valid coordinates
-            feature = {
-                'type': 'Feature',
-                'geometry': {
-                    'type': 'Point',
-                    'coordinates': [data['longitude'], data['latitude']]
-                },
-                'properties': {
-                    'Gym': gym,
-                    'Fighters': data['fighters']
-                }
-            }
-            geojson['features'].append(feature)
-    
-    return geojson
+# Create GeoJSON structure
+geojson = {
+    "type": "FeatureCollection",
+    "features": features
+}
 
-# Convert gyms to GeoJSON
-geojson_data = gyms_to_geojson(gyms)
 
-# Save the GeoJSON to a file
-geojson_file_path = f"../geojsons/fighter_gyms_{datetime.today().strftime('%Y-%m-%d')}.geojson"
-with open(geojson_file_path, 'w') as f:
-    json.dump(geojson_data, f)
+geojson_filename = f"../geojsons/fighter_gyms_{datetime.today().strftime('%Y-%m-%d')}.geojson"
+with open(geojson_filename, 'w') as file:
+    json.dump(geojson, file, indent=2)
 
-print(f"GeoJSON data has been written to {geojson_file_path}")
+print(f"GeoJSON file '{geojson_filename}' created successfully.")
