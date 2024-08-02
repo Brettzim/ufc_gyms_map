@@ -914,8 +914,8 @@
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "MMA",
-        "fighters": "Azamat Murzakanov (Light Heavyweight - 14)"
+        "gym_location": "Unknown",
+        "fighters": "Azamat Murzakanov (Light Heavyweight - 14)<br>Marina Rodriguez (Women's Strawweight - 6)"
       },
       "geometry": {
         "type": "Point",
@@ -1153,7 +1153,7 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Fight House",
-        "fighters": "Virna Jandiroba (Women's Strawweight - 3)"
+        "fighters": "Virna Jandiroba (Women's Strawweight - 3)<br>Iasmin Lucindo (Women's Strawweight - 14)"
       },
       "geometry": {
         "type": "Point",
@@ -1188,20 +1188,6 @@
         "coordinates": [
           -48.47542709,
           -1.466562892
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "gym_location": "Muay Thai",
-        "fighters": "Marina Rodriguez (Women's Strawweight - 6)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.0,
-          1.0
         ]
       }
     },
@@ -1244,20 +1230,6 @@
         "coordinates": [
           -80.19795877,
           25.81033681
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "gym_location": "Striker",
-        "fighters": "Iasmin Lucindo (Women's Strawweight - 14)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.0,
-          1.0
         ]
       }
     },
