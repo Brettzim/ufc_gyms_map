@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "gym_location": "American Top Team",
-        "fighters": "Alexandre Pantoja (Flyweight - Champion)<br>Cody Durden (Flyweight - 15)<br>Dustin Poirier (Lightweight - 4)<br>Mateusz Gamrot (Lightweight - 5)<br>Renato Moicano (Lightweight - 10)<br>Aleksandar Raki\u0107 (Light Heavyweight - 5)<br>Bogdan Guskov (Light Heavyweight - 12)<br>Jairzinho Rozenstruik (Heavyweight - 12)<br>Rodrigo Nascimento (Heavyweight - 15)<br>Amanda Ribas (Women's Strawweight - 8)<br>Amanda Ribas (Women's Flyweight - 9)<br>Kayla Harrison (Women's Bantamweight - 3)<br>Mayra Bueno Silva (Women's Bantamweight - 6)<br>Yana Santos (Women's Bantamweight - 12)"
+        "fighters": "Alexandre Pantoja (Flyweight - Champion)<br>Cody Durden (Flyweight - 15)<br>Dustin Poirier (Lightweight - 4)<br>Mateusz Gamrot (Lightweight - 5)<br>Renato Moicano (Lightweight - 10)<br>Aleksandar Raki\u0107 (Light Heavyweight - 5)<br>Bogdan Guskov (Light Heavyweight - 12)<br>Jairzinho Rozenstruik (Heavyweight - 12)<br>Rodrigo Nascimento (Heavyweight - 15)<br>Amanda Ribas (Women's Strawweight - 8)<br>Amanda Ribas (Women's Flyweight - 9)<br>Ariane da Silva (Women's Flyweight - 13)<br>Kayla Harrison (Women's Bantamweight - 3)<br>Mayra Bueno Silva (Women's Bantamweight - 6)<br>Yana Santos (Women's Bantamweight - 12)"
       },
       "geometry": {
         "type": "Point",
@@ -172,28 +172,28 @@
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "Grappler",
+        "gym_location": "Evolucao Thai",
         "fighters": "Bruno Silva (Flyweight - 13)"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.0,
-          1.0
+          -49.20627147,
+          -25.35408863
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "Gym information not found",
-        "fighters": "Asu Almabayev (Flyweight - 14)<br>Ariane da Silva (Women's Flyweight - 13)"
+        "gym_location": "DAR Team",
+        "fighters": "Asu Almabayev (Flyweight - 14)"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.0,
-          1.0
+          76.85695919,
+          43.20671583
         ]
       }
     },
@@ -299,7 +299,7 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Team Alpha Male",
-        "fighters": "Song Yadong (Bantamweight - 7)<br>Josh Emmett (Featherweight - 7)<br>Maycee Barber (Women's Flyweight - 4)"
+        "fighters": "Song Yadong (Bantamweight - 7)<br>Josh Emmett (Featherweight - 7)<br>Yan Xiaonan (Women's Strawweight - 2)<br>Maycee Barber (Women's Flyweight - 4)"
       },
       "geometry": {
         "type": "Point",
@@ -388,8 +388,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.860178,
-          19.951097
+          -158.0007116,
+          21.3999581
         ]
       }
     },
@@ -480,14 +480,14 @@
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "MMA",
-        "fighters": "Bryce Mitchell (Featherweight - 13)<br>Azamat Murzakanov (Light Heavyweight - 14)<br>Viviane Ara\u00fajo (Women's Flyweight - 10)"
+        "gym_location": "Barata MMA",
+        "fighters": "Bryce Mitchell (Featherweight - 13)"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.0,
-          1.0
+          -91.72310397,
+          35.25121474
         ]
       }
     },
@@ -733,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Team Borracha",
-        "fighters": "Paulo Costa (Middleweight - 8)"
+        "fighters": "Paulo Costa (Middleweight - 8)<br>Natalia Silva (Women's Flyweight - 8)"
       },
       "geometry": {
         "type": "Point",
@@ -914,6 +914,20 @@
     {
       "type": "Feature",
       "properties": {
+        "gym_location": "MMA",
+        "fighters": "Azamat Murzakanov (Light Heavyweight - 14)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "gym_location": "Saekson Muay Thai",
         "fighters": "Alonzo Menifield (Light Heavyweight - 15)"
       },
@@ -1082,14 +1096,14 @@
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "Wrestler",
+        "gym_location": "Lion Fight Acadamy",
         "fighters": "Alexandr Romanov (Heavyweight - 13)"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.0,
-          1.0
+          28.79315211,
+          47.0408724
         ]
       }
     },
@@ -1132,20 +1146,6 @@
         "coordinates": [
           -117.545213,
           34.100554
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "gym_location": "China Top Team Beijing",
-        "fighters": "Yan Xiaonan (Women's Strawweight - 2)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          116.3912757,
-          39.906217
         ]
       }
     },
@@ -1306,14 +1306,14 @@
     {
       "type": "Feature",
       "properties": {
-        "gym_location": "Taekwondo",
-        "fighters": "Natalia Silva (Women's Flyweight - 8)"
+        "gym_location": "Cerrado MMA",
+        "fighters": "Viviane Ara\u00fajo (Women's Flyweight - 10)"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.0,
-          1.0
+          -47.87227881,
+          -15.77467307
         ]
       }
     },
