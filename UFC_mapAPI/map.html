@@ -26,7 +26,7 @@ const map = new mapboxgl.Map({
 map.on('load', () => {
     map.addSource('gyms', {
         'type': 'geojson',
-        'data': 'https://raw.githubusercontent.com/Brettzim/ufc_gyms_map/color-coded-markers/UFC_mapAPI/jupyter_notebooks/rankings_2024-08-02.geojson'
+        'data': 'https://raw.githubusercontent.com/Brettzim/ufc_gyms_map/color-coded-markers/UFC_mapAPI/geojsons/fighter_gyms_2024-08-02.geojson'
     });
 
     map.addLayer({
