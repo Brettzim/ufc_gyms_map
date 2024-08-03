@@ -6,4 +6,4 @@ Python libraries: BeautifulSoup, Pandas
 To use: Download the repo and then open the map.html.
 <img width="1680" alt="Screenshot 2024-08-03 at 7 41 07 PM" src="https://github.com/user-attachments/assets/5a58c6ad-a5dd-4b9b-92eb-a69fe4a3691a">
 
-<img width="270" alt="Screenshot 2024-08-02 at 7 45 48 AM" src="https://github.com/user-attachments/assets/81194e56-c771-4bd8-bdcd-a2fffcdd2b25">
+<img width="282" alt="Screenshot 2024-08-03 at 7 48 50 PM" src="https://github.com/user-attachments/assets/3c8e262c-ad8e-4e78-abda-e194028de5d9">
