@@ -1,5 +1,5 @@
 # Map of where ranked UFC fighters train
-A data visualization using [Map Box API](https://account.mapbox.com/). Active UFC fighter rankings data is collected from the information on ufc.com/rankings. This data is cross referenced with a custom created table of martial arts gyms each fighter belongs to. This information is obtained from Wikipedia and ESPN. To see the map, you must have a Map Box API key.
+A data visualization using [Map Box API](https://account.mapbox.com/). Current fighter rankings data is collected from the [UFC's website](ufc.com/rankings). This data is cross referenced with a custom created table of gyms and their coordinates that each fighter belongs to. This information is obtained from Wikipedia and ESPN. To see the map, you must have a Map Box API key.
 
 Python libraries: BeautifulSoup, Pandas
 
