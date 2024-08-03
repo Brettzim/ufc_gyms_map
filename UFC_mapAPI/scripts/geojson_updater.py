@@ -57,6 +57,10 @@ for weight_class, athletes in rankings.items():
                 'longitude': gym_info['longitude']
             }
 
+import json
+from collections import defaultdict
+from datetime import datetime
+
 # Group fighters by gym
 gym_dict = defaultdict(lambda: {'latitude': None, 'longitude': None, 'fighters': []})
 
@@ -74,7 +78,8 @@ for gym, info in gym_dict.items():
         "type": "Feature",
         "properties": {
             "gym_location": gym,
-            "fighters": "<br>".join(info['fighters'])
+            "fighters": "<br>".join(info['fighters']),
+            "fighter_count": len(info['fighters'])
         },
         "geometry": {
             "type": "Point",
@@ -91,8 +96,10 @@ geojson = {
     "features": features
 }
 
-
+# Define the GeoJSON filename with today's date
 geojson_filename = f"../geojsons/fighter_gyms_{datetime.today().strftime('%Y-%m-%d')}.geojson"
+
+# Write to the GeoJSON file
 with open(geojson_filename, 'w') as file:
     json.dump(geojson, file, indent=2)
 

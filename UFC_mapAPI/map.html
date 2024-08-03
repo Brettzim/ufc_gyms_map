@@ -15,7 +15,7 @@ body { margin: 0; padding: 0; }
 <div id="map"></div>
 
 <script>
-	mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN';
+	mapboxgl.accessToken = 'pk.eyJ1IjoiYnJldHR6aW0iLCJhIjoiY2x6OTc0ZDBuMDRkaDJqcG40d3g1anE4aiJ9.XQvs8Hg7pOcp6FiIsG_PgQ';
 const map = new mapboxgl.Map({
     container: 'map', // container id
     style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
@@ -26,7 +26,7 @@ const map = new mapboxgl.Map({
 map.on('load', () => {
     map.addSource('gyms', {
         'type': 'geojson',
-        'data': 'path/to/your/geojsonfile.geojson'
+        'data': 'https://raw.githubusercontent.com/Brettzim/ufc_gyms_map/color-coded-markers/UFC_mapAPI/jupyter_notebooks/rankings_2024-08-02.geojson'
     });
 
     map.addLayer({
@@ -34,15 +34,18 @@ map.on('load', () => {
         'type': 'circle',
         'source': 'gyms',
         'paint': {
-            'circle-radius': 10,
+            'circle-radius': 5,
             'circle-color': [
                 'case',
                 ['==', ['get', 'fighter_count'], 1], '#007cbf', // Blue for 1 fighter
+                ['==', ['get', 'fighter_count'], 2], '#ff0000', // Red for 2 fighters
                 ['==', ['get', 'fighter_count'], 3], '#ff0000', // Red for 3 fighters
+                ['==', ['get', 'fighter_count'], 4], '#800080', // Purple for 4 fighters
                 ['==', ['get', 'fighter_count'], 5], '#800080', // Purple for 5 fighters
-                ['>=', ['get', 'fighter_count'], 6], '#000000', // Black for 6 or more fighters
-                '#0000ff' // Default color
-            ]
+                ['>=', ['get', 'fighter_count'], 6], '#000000', // Black for 6+ fighters
+                '#FFFFFF' // White default
+            ],
+            'circle-sort-key': ['get', 'fighter_count']
         }
     });
 

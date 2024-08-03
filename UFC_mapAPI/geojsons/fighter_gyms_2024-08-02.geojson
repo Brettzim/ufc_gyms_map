@@ -5,7 +5,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "American Top Team",
-        "fighters": "Alexandre Pantoja (Flyweight - Champion)<br>Cody Durden (Flyweight - 15)<br>Dustin Poirier (Lightweight - 4)<br>Mateusz Gamrot (Lightweight - 5)<br>Renato Moicano (Lightweight - 10)<br>Aleksandar Raki\u0107 (Light Heavyweight - 5)<br>Bogdan Guskov (Light Heavyweight - 12)<br>Jairzinho Rozenstruik (Heavyweight - 12)<br>Rodrigo Nascimento (Heavyweight - 15)<br>Amanda Ribas (Women's Strawweight - 8)<br>Amanda Ribas (Women's Flyweight - 9)<br>Ariane da Silva (Women's Flyweight - 13)<br>Kayla Harrison (Women's Bantamweight - 3)<br>Mayra Bueno Silva (Women's Bantamweight - 6)<br>Yana Santos (Women's Bantamweight - 12)"
+        "fighters": "Alexandre Pantoja (Flyweight - Champion)<br>Cody Durden (Flyweight - 15)<br>Dustin Poirier (Lightweight - 4)<br>Mateusz Gamrot (Lightweight - 5)<br>Renato Moicano (Lightweight - 10)<br>Aleksandar Raki\u0107 (Light Heavyweight - 5)<br>Bogdan Guskov (Light Heavyweight - 12)<br>Jairzinho Rozenstruik (Heavyweight - 12)<br>Rodrigo Nascimento (Heavyweight - 15)<br>Amanda Ribas (Women's Strawweight - 8)<br>Amanda Ribas (Women's Flyweight - 9)<br>Ariane da Silva (Women's Flyweight - 13)<br>Kayla Harrison (Women's Bantamweight - 3)<br>Mayra Bueno Silva (Women's Bantamweight - 6)<br>Yana Santos (Women's Bantamweight - 12)",
+        "fighter_count": 15
       },
       "geometry": {
         "type": "Point",
@@ -19,7 +20,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Factory X",
-        "fighters": "Brandon Royval (Flyweight - 1)<br>Jonathan Martinez (Bantamweight - 14)"
+        "fighters": "Brandon Royval (Flyweight - 1)<br>Jonathan Martinez (Bantamweight - 14)",
+        "fighter_count": 2
       },
       "geometry": {
         "type": "Point",
@@ -33,7 +35,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Fortis MMA",
-        "fighters": "Brandon Moreno (Flyweight - 2)<br>Geoff Neal (Welterweight - 10)<br>Macy Chiasson (Women's Bantamweight - 5)"
+        "fighters": "Brandon Moreno (Flyweight - 2)<br>Geoff Neal (Welterweight - 10)<br>Macy Chiasson (Women's Bantamweight - 5)",
+        "fighter_count": 3
       },
       "geometry": {
         "type": "Point",
@@ -47,7 +50,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Xtreme Couture",
-        "fighters": "Amir Albazi (Flyweight - 3)<br>Manel Kape (Flyweight - 9)<br>Dan Ige (Featherweight - 14)<br>Sean Strickland (Middleweight - 1)<br>Roman Dolidze (Middleweight - 10)<br>Michel Pereira (Middleweight - 13)<br>Chris Curtis (Middleweight - 15)<br>Magomed Ankalaev (Light Heavyweight - 2)<br>Casey O'Neill (Women's Flyweight - 15)<br>Miesha Tate (Women's Bantamweight - 9)"
+        "fighters": "Amir Albazi (Flyweight - 3)<br>Manel Kape (Flyweight - 9)<br>Dan Ige (Featherweight - 14)<br>Sean Strickland (Middleweight - 1)<br>Roman Dolidze (Middleweight - 10)<br>Michel Pereira (Middleweight - 13)<br>Chris Curtis (Middleweight - 15)<br>Magomed Ankalaev (Light Heavyweight - 2)<br>Casey O'Neill (Women's Flyweight - 15)<br>Miesha Tate (Women's Bantamweight - 9)",
+        "fighter_count": 10
       },
       "geometry": {
         "type": "Point",
@@ -61,7 +65,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "City Kickboxing",
-        "fighters": "Kai Kara-France (Flyweight - 4)<br>Dan Hooker (Lightweight - 11)<br>Israel Adesanya (Middleweight - 2)<br>Carlos Ulberg (Light Heavyweight - 10)"
+        "fighters": "Kai Kara-France (Flyweight - 4)<br>Dan Hooker (Lightweight - 11)<br>Israel Adesanya (Middleweight - 2)<br>Carlos Ulberg (Light Heavyweight - 10)",
+        "fighter_count": 4
       },
       "geometry": {
         "type": "Point",
@@ -75,7 +80,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "The Paraestra Okinawa",
-        "fighters": "Tatsuro Taira (Flyweight - 5)"
+        "fighters": "Tatsuro Taira (Flyweight - 5)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -89,7 +95,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Syndicate MMA",
-        "fighters": "Alex Perez (Flyweight - 6)<br>Arman Tsarukyan (Lightweight - 1)<br>Khalil Rountree Jr. (Light Heavyweight - 8)<br>Norma Dumont (Women's Bantamweight - 10)"
+        "fighters": "Alex Perez (Flyweight - 6)<br>Arman Tsarukyan (Lightweight - 1)<br>Khalil Rountree Jr. (Light Heavyweight - 8)<br>Norma Dumont (Women's Bantamweight - 10)",
+        "fighter_count": 4
       },
       "geometry": {
         "type": "Point",
@@ -103,7 +110,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Wilkes MMA",
-        "fighters": "Steve Erceg (Flyweight - 7)"
+        "fighters": "Steve Erceg (Flyweight - 7)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -117,7 +125,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Nova Uniao",
-        "fighters": "Matheus Nicolau (Flyweight - 8)<br>Jos\u00e9 Aldo (Bantamweight - 8)<br>Luana Pinheiro (Women's Strawweight - 12)<br>Ketlen Vieira (Women's Bantamweight - 2)"
+        "fighters": "Matheus Nicolau (Flyweight - 8)<br>Jos\u00e9 Aldo (Bantamweight - 8)<br>Luana Pinheiro (Women's Strawweight - 12)<br>Ketlen Vieira (Women's Bantamweight - 2)",
+        "fighter_count": 4
       },
       "geometry": {
         "type": "Point",
@@ -131,7 +140,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Next Generation MMA",
-        "fighters": "Tim Elliott (Flyweight - 10)"
+        "fighters": "Tim Elliott (Flyweight - 10)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -145,7 +155,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "American Kickboxing Academy",
-        "fighters": "Matt Schnell (Flyweight - 11)<br>Islam Makhachev (Lightweight - Champion)"
+        "fighters": "Matt Schnell (Flyweight - 11)<br>Islam Makhachev (Lightweight - Champion)",
+        "fighter_count": 2
       },
       "geometry": {
         "type": "Point",
@@ -159,7 +170,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Eagles MMA",
-        "fighters": "Tagir Ulanbekov (Flyweight - 12)<br>Umar Nurmagomedov (Bantamweight - 10)<br>Sergei Pavlovich (Heavyweight - 4)"
+        "fighters": "Tagir Ulanbekov (Flyweight - 12)<br>Umar Nurmagomedov (Bantamweight - 10)<br>Sergei Pavlovich (Heavyweight - 4)",
+        "fighter_count": 3
       },
       "geometry": {
         "type": "Point",
@@ -173,7 +185,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Evolucao Thai",
-        "fighters": "Bruno Silva (Flyweight - 13)"
+        "fighters": "Bruno Silva (Flyweight - 13)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -187,7 +200,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "DAR Team",
-        "fighters": "Asu Almabayev (Flyweight - 14)"
+        "fighters": "Asu Almabayev (Flyweight - 14)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -201,7 +215,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "The MMA Lab",
-        "fighters": "Sean O'Malley (Bantamweight - Champion)<br>Kyler Phillips (Bantamweight - 11)<br>Mario Bautista (Bantamweight - 12)"
+        "fighters": "Sean O'Malley (Bantamweight - Champion)<br>Kyler Phillips (Bantamweight - 11)<br>Mario Bautista (Bantamweight - 12)",
+        "fighter_count": 3
       },
       "geometry": {
         "type": "Point",
@@ -215,7 +230,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Serra-Longo MMA",
-        "fighters": "Merab Dvalishvili (Bantamweight - 1)<br>Aljamain Sterling (Featherweight - 8)"
+        "fighters": "Merab Dvalishvili (Bantamweight - 1)<br>Aljamain Sterling (Featherweight - 8)",
+        "fighter_count": 2
       },
       "geometry": {
         "type": "Point",
@@ -229,7 +245,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Elevation Fight Team",
-        "fighters": "Cory Sandhagen (Bantamweight - 2)<br>Neil Magny (Welterweight - 12)<br>Curtis Blaydes (Heavyweight - 5)"
+        "fighters": "Cory Sandhagen (Bantamweight - 2)<br>Neil Magny (Welterweight - 12)<br>Curtis Blaydes (Heavyweight - 5)",
+        "fighter_count": 3
       },
       "geometry": {
         "type": "Point",
@@ -243,7 +260,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Tiger Muay Thai",
-        "fighters": "Petr Yan (Bantamweight - 3)<br>Rafael Fiziev (Lightweight - 8)<br>Valentina Shevchenko (Women's Flyweight - 1)"
+        "fighters": "Petr Yan (Bantamweight - 3)<br>Rafael Fiziev (Lightweight - 8)<br>Valentina Shevchenko (Women's Flyweight - 1)",
+        "fighter_count": 3
       },
       "geometry": {
         "type": "Point",
@@ -257,7 +275,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "RVCA Training Center",
-        "fighters": "Marlon Vera (Bantamweight - 4)<br>Jalin Turner (Lightweight - 13)"
+        "fighters": "Marlon Vera (Bantamweight - 4)<br>Jalin Turner (Lightweight - 13)",
+        "fighter_count": 2
       },
       "geometry": {
         "type": "Point",
@@ -271,7 +290,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Fight Ready",
-        "fighters": "Henry Cejudo (Bantamweight - 5)"
+        "fighters": "Henry Cejudo (Bantamweight - 5)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -285,7 +305,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Chute Boxe",
-        "fighters": "Deiveson Figueiredo (Bantamweight - 6)<br>Charles Oliveira (Lightweight - 2)<br>Ian Machado Garry (Welterweight - 7)"
+        "fighters": "Deiveson Figueiredo (Bantamweight - 6)<br>Charles Oliveira (Lightweight - 2)<br>Ian Machado Garry (Welterweight - 7)",
+        "fighter_count": 3
       },
       "geometry": {
         "type": "Point",
@@ -299,7 +320,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Team Alpha Male",
-        "fighters": "Song Yadong (Bantamweight - 7)<br>Josh Emmett (Featherweight - 7)<br>Yan Xiaonan (Women's Strawweight - 2)<br>Maycee Barber (Women's Flyweight - 4)"
+        "fighters": "Song Yadong (Bantamweight - 7)<br>Josh Emmett (Featherweight - 7)<br>Yan Xiaonan (Women's Strawweight - 2)<br>Maycee Barber (Women's Flyweight - 4)",
+        "fighter_count": 4
       },
       "geometry": {
         "type": "Point",
@@ -313,7 +335,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Sityodtong - Boston",
-        "fighters": "Rob Font (Bantamweight - 9)<br>Calvin Kattar (Featherweight - 9)"
+        "fighters": "Rob Font (Bantamweight - 9)<br>Calvin Kattar (Featherweight - 9)",
+        "fighter_count": 2
       },
       "geometry": {
         "type": "Point",
@@ -327,7 +350,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Alliance MMA",
-        "fighters": "Dominick Cruz (Bantamweight - 13)<br>Angela Hill (Women's Strawweight - 9)"
+        "fighters": "Dominick Cruz (Bantamweight - 13)<br>Angela Hill (Women's Strawweight - 9)",
+        "fighter_count": 2
       },
       "geometry": {
         "type": "Point",
@@ -341,7 +365,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Pura Vida BJJ & MMA",
-        "fighters": "Montel Jackson (Bantamweight - 15)"
+        "fighters": "Montel Jackson (Bantamweight - 15)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -355,7 +380,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Climent Club",
-        "fighters": "Ilia Topuria (Featherweight - Champion)"
+        "fighters": "Ilia Topuria (Featherweight - Champion)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -369,7 +395,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Freestyle MMA",
-        "fighters": "Alexander Volkanovski (Featherweight - 1)"
+        "fighters": "Alexander Volkanovski (Featherweight - 1)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -383,7 +410,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Hawaii Elite MMA",
-        "fighters": "Max Holloway (Featherweight - 2)<br>Max Holloway (Lightweight - 9)"
+        "fighters": "Max Holloway (Featherweight - 2)<br>Max Holloway (Lightweight - 9)",
+        "fighter_count": 2
       },
       "geometry": {
         "type": "Point",
@@ -397,7 +425,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Huntington Beach Ultimate Training Center",
-        "fighters": "Brian Ortega (Featherweight - 3)"
+        "fighters": "Brian Ortega (Featherweight - 3)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -411,7 +440,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Valle Flow Striking Academy",
-        "fighters": "Yair Rodriguez (Featherweight - 4)<br>Belal Muhammad (Welterweight - Champion)"
+        "fighters": "Yair Rodriguez (Featherweight - 4)<br>Belal Muhammad (Welterweight - Champion)",
+        "fighter_count": 2
       },
       "geometry": {
         "type": "Point",
@@ -425,7 +455,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "BKK Fighters",
-        "fighters": "Arnold Allen (Featherweight - 5)"
+        "fighters": "Arnold Allen (Featherweight - 5)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -439,7 +470,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Kings MMA",
-        "fighters": "Giga Chikadze (Featherweight - 10)<br>Beneil Dariush (Lightweight - 7)<br>Rafael Dos Anjos (Lightweight - 14)<br>Marvin Vettori (Middleweight - 6)"
+        "fighters": "Giga Chikadze (Featherweight - 10)<br>Beneil Dariush (Lightweight - 7)<br>Rafael Dos Anjos (Lightweight - 14)<br>Marvin Vettori (Middleweight - 6)",
+        "fighter_count": 4
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +485,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "All Powers Gym",
-        "fighters": "Lerone Murphy (Featherweight - 11)"
+        "fighters": "Lerone Murphy (Featherweight - 11)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -467,7 +500,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Lobo Gym MMA",
-        "fighters": "Diego Lopes (Featherweight - 12)<br>Loopy Godinez (Women's Strawweight - 10)<br>Alexa Grasso (Women's Flyweight - Champion)<br>Irene Aldana (Women's Bantamweight - 4)"
+        "fighters": "Diego Lopes (Featherweight - 12)<br>Loopy Godinez (Women's Strawweight - 10)<br>Alexa Grasso (Women's Flyweight - Champion)<br>Irene Aldana (Women's Bantamweight - 4)",
+        "fighter_count": 4
       },
       "geometry": {
         "type": "Point",
@@ -481,7 +515,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Barata MMA",
-        "fighters": "Bryce Mitchell (Featherweight - 13)"
+        "fighters": "Bryce Mitchell (Featherweight - 13)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -495,7 +530,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Ricardo Almeida BJJ",
-        "fighters": "Edson Barboza (Featherweight - 15)"
+        "fighters": "Edson Barboza (Featherweight - 15)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -509,7 +545,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Genesis Training Center",
-        "fighters": "Justin Gaethje (Lightweight - 3)<br>Kamaru Usman (Welterweight - 2)<br>Rose Namajunas (Women's Flyweight - 5)"
+        "fighters": "Justin Gaethje (Lightweight - 3)<br>Kamaru Usman (Welterweight - 2)<br>Rose Namajunas (Women's Flyweight - 5)",
+        "fighter_count": 3
       },
       "geometry": {
         "type": "Point",
@@ -523,7 +560,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Sanford MMA",
-        "fighters": "Michael Chandler (Lightweight - 6)<br>Shavkat Rakhmonov (Welterweight - 3)<br>Gilbert Burns (Welterweight - 6)<br>Vicente Luque (Welterweight - 13)<br>Brendan Allen (Middleweight - 7)"
+        "fighters": "Michael Chandler (Lightweight - 6)<br>Shavkat Rakhmonov (Welterweight - 3)<br>Gilbert Burns (Welterweight - 6)<br>Vicente Luque (Welterweight - 13)<br>Brendan Allen (Middleweight - 7)",
+        "fighter_count": 5
       },
       "geometry": {
         "type": "Point",
@@ -537,7 +575,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Venum Training Camp Paris",
-        "fighters": "Beno\u00eet Saint Denis (Lightweight - 12)<br>Nassourdine Imavov (Middleweight - 4)"
+        "fighters": "Beno\u00eet Saint Denis (Lightweight - 12)<br>Nassourdine Imavov (Middleweight - 4)",
+        "fighter_count": 2
       },
       "geometry": {
         "type": "Point",
@@ -551,7 +590,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "NEXT Generation MMA",
-        "fighters": "Paddy Pimblett (Lightweight - 15)"
+        "fighters": "Paddy Pimblett (Lightweight - 15)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -565,7 +605,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "\tTeam Renegade",
-        "fighters": "Leon Edwards (Welterweight - 1)"
+        "fighters": "Leon Edwards (Welterweight - 1)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -579,7 +620,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "MMA Masters",
-        "fighters": "Colby Covington (Welterweight - 4)"
+        "fighters": "Colby Covington (Welterweight - 4)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -593,7 +635,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Scrappy MMA",
-        "fighters": "Jack Della Maddalena (Welterweight - 5)"
+        "fighters": "Jack Della Maddalena (Welterweight - 5)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -607,7 +650,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Renzo Gracie Philly",
-        "fighters": "Sean Brady (Welterweight - 8)"
+        "fighters": "Sean Brady (Welterweight - 8)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -621,7 +665,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Upstate Karate Family Martial Arts Center",
-        "fighters": "Stephen Thompson (Welterweight - 9)"
+        "fighters": "Stephen Thompson (Welterweight - 9)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -635,7 +680,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Murcielago MMA",
-        "fighters": "Joaquin Buckley (Welterweight - 11)"
+        "fighters": "Joaquin Buckley (Welterweight - 11)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -649,7 +695,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "London Shootfighters",
-        "fighters": "Michael Page (Welterweight - 14)"
+        "fighters": "Michael Page (Welterweight - 14)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -663,7 +710,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Travis Lutter BJJ",
-        "fighters": "Kevin Holland (Welterweight - 15)"
+        "fighters": "Kevin Holland (Welterweight - 15)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -677,7 +725,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Team CIT MMA",
-        "fighters": "Dricus Du Plessis (Middleweight - Champion)"
+        "fighters": "Dricus Du Plessis (Middleweight - Champion)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -691,7 +740,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "PMA, Padstow NSW, Australia",
-        "fighters": "Robert Whittaker (Middleweight - 3)"
+        "fighters": "Robert Whittaker (Middleweight - 3)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -705,7 +755,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "ABJJ + Gracie Barra Alaska",
-        "fighters": "Jared Cannonier (Middleweight - 5)"
+        "fighters": "Jared Cannonier (Middleweight - 5)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -719,7 +770,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Team Borracha",
-        "fighters": "Paulo Costa (Middleweight - 8)<br>Natalia Silva (Women's Flyweight - 8)"
+        "fighters": "Paulo Costa (Middleweight - 8)<br>Natalia Silva (Women's Flyweight - 8)",
+        "fighter_count": 2
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +785,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Frontline Academy",
-        "fighters": "Jack Hermansson (Middleweight - 9)"
+        "fighters": "Jack Hermansson (Middleweight - 9)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -747,7 +800,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Allstars Training Center",
-        "fighters": "Khamzat Chimaev (Middleweight - 11)<br>Volkan Oezdemir (Light Heavyweight - 7)"
+        "fighters": "Khamzat Chimaev (Middleweight - 11)<br>Volkan Oezdemir (Light Heavyweight - 7)",
+        "fighter_count": 2
       },
       "geometry": {
         "type": "Point",
@@ -761,7 +815,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Combat Club",
-        "fighters": "Caio Borralho (Middleweight - 12)"
+        "fighters": "Caio Borralho (Middleweight - 12)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -775,7 +830,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Marinoble's Martial Arts",
-        "fighters": "Anthony Hernandez (Middleweight - 14)"
+        "fighters": "Anthony Hernandez (Middleweight - 14)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -789,7 +845,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Teixeira MMA & Fitness",
-        "fighters": "Alex Pereira (Light Heavyweight - Champion)"
+        "fighters": "Alex Pereira (Light Heavyweight - Champion)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -803,7 +860,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "JETSAAM GYM",
-        "fighters": "Ji\u0159\u00ed Proch\u00e1zka (Light Heavyweight - 1)"
+        "fighters": "Ji\u0159\u00ed Proch\u00e1zka (Light Heavyweight - 1)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -817,7 +875,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Black Lion BJJ",
-        "fighters": "Jamahal Hill (Light Heavyweight - 3)"
+        "fighters": "Jamahal Hill (Light Heavyweight - 3)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -831,7 +890,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "WCA",
-        "fighters": "Jan B\u0142achowicz (Light Heavyweight - 4)"
+        "fighters": "Jan B\u0142achowicz (Light Heavyweight - 4)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -845,7 +905,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Vale Tudo MMA",
-        "fighters": "Nikita Krylov (Light Heavyweight - 6)"
+        "fighters": "Nikita Krylov (Light Heavyweight - 6)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -859,7 +920,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "SBG Ireland",
-        "fighters": "Johnny Walker (Light Heavyweight - 9)"
+        "fighters": "Johnny Walker (Light Heavyweight - 9)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -873,7 +935,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Mick Doyle's Kickboxing - Omaha, NE",
-        "fighters": "Anthony Smith (Light Heavyweight - 11)"
+        "fighters": "Anthony Smith (Light Heavyweight - 11)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -887,7 +950,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Corba Kai",
-        "fighters": "Dominick Reyes (Light Heavyweight - 13)"
+        "fighters": "Dominick Reyes (Light Heavyweight - 13)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -901,7 +965,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Unknown",
-        "fighters": "Azamat Murzakanov (Light Heavyweight - 14)<br>Marina Rodriguez (Women's Strawweight - 6)"
+        "fighters": "Azamat Murzakanov (Light Heavyweight - 14)<br>Marina Rodriguez (Women's Strawweight - 6)",
+        "fighter_count": 2
       },
       "geometry": {
         "type": "Point",
@@ -915,7 +980,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Saekson Muay Thai",
-        "fighters": "Alonzo Menifield (Light Heavyweight - 15)"
+        "fighters": "Alonzo Menifield (Light Heavyweight - 15)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -929,7 +995,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Jackson Wink MMA",
-        "fighters": "Jon Jones (Heavyweight - Champion)<br>Holly Holm (Women's Bantamweight - 7)"
+        "fighters": "Jon Jones (Heavyweight - Champion)<br>Holly Holm (Women's Bantamweight - 7)",
+        "fighter_count": 2
       },
       "geometry": {
         "type": "Point",
@@ -943,7 +1010,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Team Kaobon",
-        "fighters": "Tom Aspinall (Heavyweight - 1)"
+        "fighters": "Tom Aspinall (Heavyweight - 1)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -957,7 +1025,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "MMA Factory - Paris",
-        "fighters": "Ciryl Gane (Heavyweight - 2)"
+        "fighters": "Ciryl Gane (Heavyweight - 2)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -971,7 +1040,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Global Fight Gym",
-        "fighters": "Alexander Volkov (Heavyweight - 3)"
+        "fighters": "Alexander Volkov (Heavyweight - 3)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -985,7 +1055,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Strongstyle Fight Team",
-        "fighters": "Stipe Miocic (Heavyweight - 6)"
+        "fighters": "Stipe Miocic (Heavyweight - 6)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -999,7 +1070,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Galpao da Luta",
-        "fighters": "Jailton Almeida (Heavyweight - 7)"
+        "fighters": "Jailton Almeida (Heavyweight - 7)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1085,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "S4 Warszawa",
-        "fighters": "Marcin Tybura (Heavyweight - 8)"
+        "fighters": "Marcin Tybura (Heavyweight - 8)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -1027,7 +1100,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "MIR MMA",
-        "fighters": "Serghei Spivac (Heavyweight - 9)"
+        "fighters": "Serghei Spivac (Heavyweight - 9)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -1041,7 +1115,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "TK MMA",
-        "fighters": "Tai Tuivasa (Heavyweight - 10)"
+        "fighters": "Tai Tuivasa (Heavyweight - 10)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -1055,7 +1130,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "4oz Fight Club",
-        "fighters": "Derrick Lewis (Heavyweight - 11)"
+        "fighters": "Derrick Lewis (Heavyweight - 11)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -1069,7 +1145,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Lion Fight Acadamy",
-        "fighters": "Alexandr Romanov (Heavyweight - 13)"
+        "fighters": "Alexandr Romanov (Heavyweight - 13)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -1083,7 +1160,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "011 MMA TEAM",
-        "fighters": "Marcos Rogerio de Lima (Heavyweight - 14)"
+        "fighters": "Marcos Rogerio de Lima (Heavyweight - 14)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -1097,7 +1175,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Bangtao",
-        "fighters": "Zhang Weili (Women's Strawweight - Champion)"
+        "fighters": "Zhang Weili (Women's Strawweight - Champion)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -1111,7 +1190,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Millennia MMA",
-        "fighters": "Tatiana Suarez (Women's Strawweight - 1)"
+        "fighters": "Tatiana Suarez (Women's Strawweight - 1)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -1125,7 +1205,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Fight House",
-        "fighters": "Virna Jandiroba (Women's Strawweight - 3)<br>Iasmin Lucindo (Women's Strawweight - 14)"
+        "fighters": "Virna Jandiroba (Women's Strawweight - 3)<br>Iasmin Lucindo (Women's Strawweight - 14)",
+        "fighter_count": 2
       },
       "geometry": {
         "type": "Point",
@@ -1139,7 +1220,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "PRVT Para Vale Tudo",
-        "fighters": "J\u00e9ssica Andrade (Women's Strawweight - 4)<br>J\u00e9ssica Andrade (Women's Flyweight - 6)<br>Karol Rosa (Women's Bantamweight - 8)"
+        "fighters": "J\u00e9ssica Andrade (Women's Strawweight - 4)<br>J\u00e9ssica Andrade (Women's Flyweight - 6)<br>Karol Rosa (Women's Bantamweight - 8)",
+        "fighter_count": 3
       },
       "geometry": {
         "type": "Point",
@@ -1153,7 +1235,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Marajo Brothers",
-        "fighters": "Amanda Lemos (Women's Strawweight - 5)"
+        "fighters": "Amanda Lemos (Women's Strawweight - 5)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -1167,7 +1250,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Megaton Dias BJJ",
-        "fighters": "Mackenzie Dern (Women's Strawweight - 7)"
+        "fighters": "Mackenzie Dern (Women's Strawweight - 7)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -1181,7 +1265,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Black House MMA",
-        "fighters": "Tabatha Ricci (Women's Strawweight - 11)"
+        "fighters": "Tabatha Ricci (Women's Strawweight - 11)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -1195,7 +1280,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Goat Shed",
-        "fighters": "Gillian Robertson (Women's Strawweight - 13)"
+        "fighters": "Gillian Robertson (Women's Strawweight - 13)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -1209,7 +1295,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Gracie Barra Lodz",
-        "fighters": "Karolina Kowalkiewicz (Women's Strawweight - 15)"
+        "fighters": "Karolina Kowalkiewicz (Women's Strawweight - 15)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -1223,7 +1310,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Boxing Squad Nice",
-        "fighters": "Manon Fiorot (Women's Flyweight - 2)"
+        "fighters": "Manon Fiorot (Women's Flyweight - 2)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -1237,7 +1325,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Renzo Gracie Academy",
-        "fighters": "Erin Blanchfield (Women's Flyweight - 3)<br>Katlyn Cerminara (Women's Flyweight - 7)"
+        "fighters": "Erin Blanchfield (Women's Flyweight - 3)<br>Katlyn Cerminara (Women's Flyweight - 7)",
+        "fighter_count": 2
       },
       "geometry": {
         "type": "Point",
@@ -1251,7 +1340,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Cerrado MMA",
-        "fighters": "Viviane Ara\u00fajo (Women's Flyweight - 10)"
+        "fighters": "Viviane Ara\u00fajo (Women's Flyweight - 10)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -1265,7 +1355,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Gile Ribeiro - Curitiba, Brazil",
-        "fighters": "Karine Silva (Women's Flyweight - 11)"
+        "fighters": "Karine Silva (Women's Flyweight - 11)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -1279,7 +1370,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Neuro Force One",
-        "fighters": "Tracy Cortez (Women's Flyweight - 12)"
+        "fighters": "Tracy Cortez (Women's Flyweight - 12)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1385,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Niagara Top Team",
-        "fighters": "Jasmine Jasudavicius (Women's Flyweight - 14)"
+        "fighters": "Jasmine Jasudavicius (Women's Flyweight - 14)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -1307,7 +1400,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Colorado Springs BJJ",
-        "fighters": "Raquel Pennington (Women's Bantamweight - Champion)"
+        "fighters": "Raquel Pennington (Women's Bantamweight - Champion)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -1321,7 +1415,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Sik-Jitsu Spokane, WA",
-        "fighters": "Julianna Pe\u00f1a (Women's Bantamweight - 1)"
+        "fighters": "Julianna Pe\u00f1a (Women's Bantamweight - 1)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -1335,7 +1430,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Arte Suave",
-        "fighters": "Pannie Kianzad (Women's Bantamweight - 11)"
+        "fighters": "Pannie Kianzad (Women's Bantamweight - 11)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -1349,7 +1445,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Outsiders Combat Club",
-        "fighters": "Julia Avila (Women's Bantamweight - 13)"
+        "fighters": "Julia Avila (Women's Bantamweight - 13)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -1363,7 +1460,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "Cesar Gracie Jiu-Jitsu",
-        "fighters": "Chelsea Chandler (Women's Bantamweight - 14)"
+        "fighters": "Chelsea Chandler (Women's Bantamweight - 14)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
@@ -1377,7 +1475,8 @@
       "type": "Feature",
       "properties": {
         "gym_location": "CSA Holland",
-        "fighters": "Germaine de Randamie (Women's Bantamweight - 15)"
+        "fighters": "Germaine de Randamie (Women's Bantamweight - 15)",
+        "fighter_count": 1
       },
       "geometry": {
         "type": "Point",
