@@ -15,7 +15,7 @@ body { margin: 0; padding: 0; }
 <div id="map"></div>
 
 <script>
-	mapboxgl.accessToken = 'pk.eyJ1IjoiYnJldHR6aW0iLCJhIjoiY2x6OTc0ZDBuMDRkaDJqcG40d3g1anE4aiJ9.XQvs8Hg7pOcp6FiIsG_PgQ';
+	mapboxgl.accessToken = '';
 const map = new mapboxgl.Map({
     container: 'map', // container id
     style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
@@ -26,7 +26,7 @@ const map = new mapboxgl.Map({
 map.on('load', () => {
     map.addSource('gyms', {
         'type': 'geojson',
-        'data': 'https://raw.githubusercontent.com/Brettzim/ufc_gyms_map/color-coded-markers/UFC_mapAPI/geojsons/fighter_gyms_2024-08-02.geojson'
+        'data': 'https://raw.githubusercontent.com/Brettzim/ufc_gyms_map/color-coded-markers/UFC_mapAPI/jupyter_notebooks/fighters_gyms.geojson'
     });
 
     map.addLayer({
@@ -37,15 +37,15 @@ map.on('load', () => {
             'circle-radius': 5,
             'circle-color': [
                 'case',
-                ['==', ['get', 'fighter_count'], 1], '#007cbf', // Blue for 1 fighter
-                ['==', ['get', 'fighter_count'], 2], '#ff0000', // Red for 2 fighters
-                ['==', ['get', 'fighter_count'], 3], '#ff0000', // Red for 3 fighters
-                ['==', ['get', 'fighter_count'], 4], '#800080', // Purple for 4 fighters
-                ['==', ['get', 'fighter_count'], 5], '#800080', // Purple for 5 fighters
-                ['>=', ['get', 'fighter_count'], 6], '#000000', // Black for 6+ fighters
+                ['==', ['get', 'number_of_fighters'], 1], '#007cbf', // Blue for 1 fighter
+                ['==', ['get', 'number_of_fighters'], 2], '#ff0000', // Red for 2 fighters
+                ['==', ['get', 'number_of_fighters'], 3], '#ff0000', // Red for 3 fighters
+                ['==', ['get', 'number_of_fighters'], 4], '#800080', // Purple for 4 fighters
+                ['==', ['get', 'number_of_fighters'], 5], '#800080', // Purple for 5 fighters
+                ['>=', ['get', 'number_of_fighters'], 6], '#000000', // Black for 6+ fighters
                 '#FFFFFF' // White default
             ],
-            'circle-sort-key': ['get', 'fighter_count']
+            'circle-sort-key': ['get', 'number_of_fighters']
         }
     });
 

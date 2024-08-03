@@ -12,27 +12,22 @@ page = requests.get(URL)
 soup = BeautifulSoup(page.content, 'html.parser')
 weightclass = soup.findAll('div', attrs={'class':'view-grouping'})
 
-# Dictionary to store the information
 rankings = {}
 
-# Function to extract athlete data from a row
 def extract_athlete_data(row):
     rank = row.select_one('.views-field-weight-class-rank').text.strip()
     name = row.select_one('.views-field-title a').text.strip()
     return rank, name
 
-# Iterate over all view groupings (weight classes)
 for grouping in soup.select('.view-grouping'):
     weight_class = grouping.select_one('.view-grouping-header').text.strip()
     rankings[weight_class] = {}
     
-    # Extract champion if present
     champion_section = grouping.select_one('.rankings--athlete--champion .info h5 a')
     if champion_section:
         champion_name = champion_section.text.strip()
         rankings[weight_class]['Champion'] = champion_name
     
-    # Extract other athletes
     rows = grouping.select('tbody tr')
     for row in rows:
         rank, name = extract_athlete_data(row)
@@ -43,18 +38,15 @@ del rankings["Men's Pound-for-Pound Top Rank"]
 fighter_gyms = {}
 for weight_class, fighters in rankings.items():
 
-    # List of fighter names
     names = list(fighters.values())
 
     for fighter_name in names:
-        # Format the fighter's name for the URL
         formatted_name = fighter_name.replace(" ", "_")
         url = f"https://en.wikipedia.org/wiki/{formatted_name}"
         response = requests.get(url)
         soup = BeautifulSoup(response.content, "html.parser")
         infobox = soup.find("table", {"class": "infobox"})
 
-        # Check if the infobox is found
         if infobox:
             rows = infobox.find_all("tr")
            
@@ -63,12 +55,8 @@ for weight_class, fighters in rankings.items():
                 header = row.find("th")
                 value = row.find("td")
 
-                # Check if the header is "Team"
                 if header and "Team" in header.text:
-                    # Extract text from the value cell
                     teams_text = value.get_text()
-
-                    # Add the raw text to the dictionary
                     fighter_gyms[fighter_name] = teams_text
 
 
