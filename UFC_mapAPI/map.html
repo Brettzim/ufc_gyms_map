@@ -15,59 +15,59 @@ body { margin: 0; padding: 0; }
 <div id="map"></div>
 
 <script>
-	mapboxgl.accessToken = '';
-    const map = new mapboxgl.Map({
-        container: 'map', // container ID
-        // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
-        style: 'mapbox://styles/mapbox/streets-v11', // style URL
-        zoom: 3, // starting zoom
-        center: [-98.5795, 39.8283] // // starting center in [lng, lat]
+	mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN';
+const map = new mapboxgl.Map({
+    container: 'map', // container id
+    style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
+    center: [-98, 39], // starting position [lng, lat]
+    zoom: 3 // starting zoom
+});
+
+map.on('load', () => {
+    map.addSource('gyms', {
+        'type': 'geojson',
+        'data': 'path/to/your/geojsonfile.geojson'
     });
 
-    map.on('style.load', () => {
-        map.setFog({}); // Set the default atmosphere style
+    map.addLayer({
+        'id': 'gyms',
+        'type': 'circle',
+        'source': 'gyms',
+        'paint': {
+            'circle-radius': 10,
+            'circle-color': [
+                'case',
+                ['==', ['get', 'fighter_count'], 1], '#007cbf', // Blue for 1 fighter
+                ['==', ['get', 'fighter_count'], 3], '#ff0000', // Red for 3 fighters
+                ['==', ['get', 'fighter_count'], 5], '#800080', // Purple for 5 fighters
+                ['>=', ['get', 'fighter_count'], 6], '#000000', // Black for 6 or more fighters
+                '#0000ff' // Default color
+            ]
+        }
     });
 
-    map.on('load', () => {
-        map.addSource('places', {
-            type: 'geojson',
-            // Use a URL for the value for the `data` property.
-            data: 'https://raw.githubusercontent.com/Brettzim/ufc_gyms_map/main/UFC_mapAPI/geojsons/fighter_gyms_2024-08-02.geojson'
-        });
+    map.on('click', 'gyms', (e) => {
+        const coordinates = e.features[0].geometry.coordinates.slice();
+        const description = e.features[0].properties.fighters;
 
-        map.addLayer({
-            'id': 'places-layer',
-            'type': 'circle',
-            'source': 'places',
-            'paint': {
-                'circle-radius': 4,
-                'circle-stroke-width': 2,
-                'circle-color': 'red',
-                'circle-stroke-color': 'white'
-            }
-        });
-
-        // Add popups
-        map.on('click', 'places-layer', (e) => {
-                        const coordinates = e.features[0].geometry.coordinates.slice();
-                        const description = e.features[0].properties.fighters;
-
-                        new mapboxgl.Popup()
-                            .setLngLat(coordinates)
-                            .setHTML(`<strong>Gym: ${e.features[0].properties.gym_location}</strong><p><u>Fighters:</u></p> <p>${description}</p>`)
-                            .addTo(map);
-                    });
-
-                    // Change the cursor to a pointer when the mouse is over the places layer
-        map.on('mouseenter', 'places-layer', () => {
-                        map.getCanvas().style.cursor = 'pointer';
-                    });
-
-                    // Change it back to a pointer when it leaves
-         map.on('mouseleave', 'places-layer', () => {
-                        map.getCanvas().style.cursor = '';
-                    });
+        new mapboxgl.Popup()
+            .setLngLat(coordinates)
+            .setHTML(`
+                <p><strong>Gym: ${e.features[0].properties.gym_location}</strong></p>
+                <p><u>Fighters:</u></p>
+                <p>${description.replace(/<br>/g, '<br>\n')}</p>
+            `)
+            .addTo(map);
     });
+
+    map.on('mouseenter', 'gyms', () => {
+        map.getCanvas().style.cursor = 'pointer';
+    });
+
+    map.on('mouseleave', 'gyms', () => {
+        map.getCanvas().style.cursor = '';
+    });
+}); 
 </script>
 
 </body>
