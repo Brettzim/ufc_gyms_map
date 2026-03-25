@@ -1,6 +1,9 @@
 # Environment / secrets
 .env
 
+# Claude Code
+.claude/
+
 # Virtual environment
 venv/
 
