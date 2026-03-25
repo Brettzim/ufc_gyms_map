@@ -1,6 +1,16 @@
+# Environment / secrets
+.env
 
-UFC_mapAPI/jupyter_notebooks/.ipynb_checkpoints/fighter_gyms_init-checkpoint.ipynb
+# Virtual environment
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
 .DS_Store
-UFC_mapAPI/.ipynb_checkpoints/Untitled-checkpoint.ipynb
-UFC_mapAPI/.ipynb_checkpoints/Untitled1-checkpoint.ipynb
-UFC_mapAPI/jupyter_notebooks/.ipynb_checkpoints/fighter_gyms_weekly-checkpoint.ipynb
+
+# Old Jupyter checkpoints
+UFC_mapAPI/jupyter_notebooks/.ipynb_checkpoints/
+UFC_mapAPI/.ipynb_checkpoints/
