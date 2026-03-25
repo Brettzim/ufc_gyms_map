@@ -1,0 +1,875 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Team Oyama",
+        "popup": "<strong>Team Oyama</strong><br><span style=\"opacity:0.6;font-size:11px\">Las Vegas, USA</span><br><br>Marlon Vera &mdash; Bantamweight &bull; 10<br>Joshua Van &mdash; Flyweight &bull; C<br>Alex Perez &mdash; Flyweight &bull; 10",
+        "count": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1398,
+          36.1699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "American Top Team",
+        "popup": "<strong>American Top Team</strong><br><span style=\"opacity:0.6;font-size:11px\">Coconut Creek, USA</span><br><br>Petr Yan &mdash; Bantamweight &bull; C<br>Movsar Evloev &mdash; Featherweight &bull; 1<br>Alexandre Pantoja &mdash; Flyweight &bull; 1<br>Kyoji Horiguchi &mdash; Flyweight &bull; 5<br>Alexander Volkov &mdash; Heavyweight &bull; 2<br>Serghei Spivac &mdash; Heavyweight &bull; 6<br>Marcin Tybura &mdash; Heavyweight &bull; 8<br>Ante Delija &mdash; Heavyweight &bull; 10<br>Azamat Murzakanov &mdash; Light Heavyweight &bull; 6<br>Arman Tsarukyan &mdash; Lightweight &bull; 2<br>Mateusz Gamrot &mdash; Lightweight &bull; 8<br>Renato Moicano &mdash; Lightweight &bull; 10<br>Kayla Harrison &mdash; Women's Bantamweight &bull; C<br>Yana Santos &mdash; Women's Bantamweight &bull; 5<br>Gillian Robertson &mdash; Women's Strawweight &bull; 5<br>Amanda Ribas &mdash; Women's Strawweight &bull; 10",
+        "count": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.183,
+          26.2748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "AKA Thailand",
+        "popup": "<strong>AKA Thailand</strong><br><span style=\"opacity:0.6;font-size:11px\">Phuket, Thailand</span><br><br>Manel Kape &mdash; Flyweight &bull; 2",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.3981,
+          7.8907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "The Paraestra Okinawa",
+        "popup": "<strong>The Paraestra Okinawa</strong><br><span style=\"opacity:0.6;font-size:11px\">Naha, Japan</span><br><br>Tatsuro Taira &mdash; Flyweight &bull; 3",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.6811,
+          26.2125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Factory X",
+        "popup": "<strong>Factory X</strong><br><span style=\"opacity:0.6;font-size:11px\">Englewood, USA</span><br><br>Youssef Zalal &mdash; Featherweight &bull; 7<br>Brandon Royval &mdash; Flyweight &bull; 4<br>Nassourdine Imavov &mdash; Middleweight &bull; 2",
+        "count": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9878,
+          39.6478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Team Alpha Male",
+        "popup": "<strong>Team Alpha Male</strong><br><span style=\"opacity:0.6;font-size:11px\">Sacramento, USA</span><br><br>Song Yadong &mdash; Bantamweight &bull; 5<br>David Martinez &mdash; Bantamweight &bull; 9<br>Steve Garcia &mdash; Featherweight &bull; 9<br>Kevin Vallejos &mdash; Featherweight &bull; 10<br>Lone\u2019er Kavanagh &mdash; Flyweight &bull; 6<br>Anthony Hernandez &mdash; Middleweight &bull; 7<br>Maycee Barber &mdash; Women's Flyweight &bull; 5<br>Jasmine Jasudavicius &mdash; Women's Flyweight &bull; 7<br>Yan Xiaonan &mdash; Women's Strawweight &bull; 4",
+        "count": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4944,
+          38.5816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Extreme Couture",
+        "popup": "<strong>Extreme Couture</strong><br><span style=\"opacity:0.6;font-size:11px\">Las Vegas, USA</span><br><br>Amir Albazi &mdash; Flyweight &bull; 7<br>Sean Strickland &mdash; Middleweight &bull; 3",
+        "count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1398,
+          36.1699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Team Erkin Kush",
+        "popup": "<strong>Team Erkin Kush</strong><br><span style=\"opacity:0.6;font-size:11px\">Astana, Kazakhstan</span><br><br>Asu Almabayev &mdash; Flyweight &bull; 8",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4491,
+          51.1694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Entram Gym",
+        "popup": "<strong>Entram Gym</strong><br><span style=\"opacity:0.6;font-size:11px\">Tijuana, Mexico</span><br><br>Brandon Moreno &mdash; Flyweight &bull; 9<br>Michael Morales &mdash; Welterweight &bull; 3",
+        "count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0382,
+          32.5149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Serra-Longo Fight Team",
+        "popup": "<strong>Serra-Longo Fight Team</strong><br><span style=\"opacity:0.6;font-size:11px\">Huntington, USA</span><br><br>Merab Dvalishvili &mdash; Bantamweight &bull; 1<br>Aljamain Sterling &mdash; Featherweight &bull; 5",
+        "count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4257,
+          40.8682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "American Kickboxing Academy",
+        "popup": "<strong>American Kickboxing Academy</strong><br><span style=\"opacity:0.6;font-size:11px\">San Jose, USA</span><br><br>Umar Nurmagomedov &mdash; Bantamweight &bull; 2<br>Sergei Pavlovich &mdash; Heavyweight &bull; 3<br>Rizvan Kuniev &mdash; Heavyweight &bull; 7<br>Magomed Ankalaev &mdash; Light Heavyweight &bull; 1<br>Islam Makhachev &mdash; Welterweight &bull; C",
+        "count": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8863,
+          37.3382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "The MMA Lab",
+        "popup": "<strong>The MMA Lab</strong><br><span style=\"opacity:0.6;font-size:11px\">Glendale, USA</span><br><br>Sean O'Malley &mdash; Bantamweight &bull; 2<br>Mario Bautista &mdash; Bantamweight &bull; 8<br>Waldo Cortes Acosta &mdash; Heavyweight &bull; 4<br>Jared Cannonier &mdash; Middleweight &bull; 10<br>Tracy Cortez &mdash; Women's Flyweight &bull; 8<br>Miranda Maverick &mdash; Women's Flyweight &bull; 9",
+        "count": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.1859,
+          33.5387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Elevation Fight Team",
+        "popup": "<strong>Elevation Fight Team</strong><br><span style=\"opacity:0.6;font-size:11px\">Aurora, USA</span><br><br>Cory Sandhagen &mdash; Bantamweight &bull; 4",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8319,
+          39.7294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Tristar Gym",
+        "popup": "<strong>Tristar Gym</strong><br><span style=\"opacity:0.6;font-size:11px\">Montreal, Canada</span><br><br>Aiemann Zahabi &mdash; Bantamweight &bull; 6<br>Arnold Allen &mdash; Featherweight &bull; 8<br>Beno\u00eet Saint Denis &mdash; Lightweight &bull; 5",
+        "count": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5673,
+          45.5017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Team Figueiredo",
+        "popup": "<strong>Team Figueiredo</strong><br><span style=\"opacity:0.6;font-size:11px\">Belem, Brazil</span><br><br>Deiveson Figueiredo &mdash; Bantamweight &bull; 7",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.4902,
+          -1.4558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "City Kickboxing",
+        "popup": "<strong>City Kickboxing</strong><br><span style=\"opacity:0.6;font-size:11px\">Auckland, New Zealand</span><br><br>Alexander Volkanovski &mdash; Featherweight &bull; C<br>Carlos Ulberg &mdash; Light Heavyweight &bull; 3<br>Dan Hooker &mdash; Lightweight &bull; 7<br>Israel Adesanya &mdash; Middleweight &bull; 4<br>Jack Della Maddalena &mdash; Welterweight &bull; 1",
+        "count": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7633,
+          -36.8485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Kansas City Brazilian Jiu-Jitsu",
+        "popup": "<strong>Kansas City Brazilian Jiu-Jitsu</strong><br><span style=\"opacity:0.6;font-size:11px\">Kansas City, USA</span><br><br>Diego Lopes &mdash; Featherweight &bull; 2",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5786,
+          39.0997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Manchester Top Team",
+        "popup": "<strong>Manchester Top Team</strong><br><span style=\"opacity:0.6;font-size:11px\">Manchester, United Kingdom</span><br><br>Lerone Murphy &mdash; Featherweight &bull; 3",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2426,
+          53.4808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Valle Flow Striking",
+        "popup": "<strong>Valle Flow Striking</strong><br><span style=\"opacity:0.6;font-size:11px\">Chicago, USA</span><br><br>Yair Rodriguez &mdash; Featherweight &bull; 4",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6298,
+          41.8781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Team Nogueira",
+        "popup": "<strong>Team Nogueira</strong><br><span style=\"opacity:0.6;font-size:11px\">Rio de Janeiro, Brazil</span><br><br>Jean Silva &mdash; Featherweight &bull; 6<br>Mauricio Ruffy &mdash; Lightweight &bull; 9<br>Carlos Prates &mdash; Welterweight &bull; 5<br>Gabriel Bonfim &mdash; Welterweight &bull; 10<br>Norma Dumont &mdash; Women's Bantamweight &bull; 3<br>Ailin Perez &mdash; Women's Bantamweight &bull; 6<br>Jacqueline Cavalcanti &mdash; Women's Bantamweight &bull; 10<br>Natalia Silva &mdash; Women's Flyweight &bull; 1<br>Karine Silva &mdash; Women's Flyweight &bull; 10<br>Virna Jandiroba &mdash; Women's Strawweight &bull; 3",
+        "count": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1729,
+          -22.9068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Climent Club",
+        "popup": "<strong>Climent Club</strong><br><span style=\"opacity:0.6;font-size:11px\">Alicante, Spain</span><br><br>Ilia Topuria &mdash; Lightweight &bull; C",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4907,
+          38.3452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "ONX Sports",
+        "popup": "<strong>ONX Sports</strong><br><span style=\"opacity:0.6;font-size:11px\">Denver, USA</span><br><br>Justin Gaethje &mdash; Lightweight &bull; 1<br>Kamaru Usman &mdash; Welterweight &bull; 7",
+        "count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9903,
+          39.7392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Chute Boxe Diego Lima",
+        "popup": "<strong>Chute Boxe Diego Lima</strong><br><span style=\"opacity:0.6;font-size:11px\">Sao Paulo, Brazil</span><br><br>Charles Oliveira &mdash; Lightweight &bull; 3<br>Ian Machado Garry &mdash; Welterweight &bull; 2",
+        "count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6333,
+          -23.5505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Gracie Technics",
+        "popup": "<strong>Gracie Technics</strong><br><span style=\"opacity:0.6;font-size:11px\">Honolulu, USA</span><br><br>Max Holloway &mdash; Lightweight &bull; 4",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.8583,
+          21.3069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Next Generation MMA",
+        "popup": "<strong>Next Generation MMA</strong><br><span style=\"opacity:0.6;font-size:11px\">Liverpool, United Kingdom</span><br><br>Paddy Pimblett &mdash; Lightweight &bull; 6",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9916,
+          53.4084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Tiger Muay Thai",
+        "popup": "<strong>Tiger Muay Thai</strong><br><span style=\"opacity:0.6;font-size:11px\">Phuket, Thailand</span><br><br>Bogdan Guskov &mdash; Light Heavyweight &bull; 8<br>Rafael Fiziev &mdash; Lightweight &bull; 10<br>Valentina Shevchenko &mdash; Women's Flyweight &bull; C",
+        "count": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.3981,
+          7.8907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Roufusport",
+        "popup": "<strong>Roufusport</strong><br><span style=\"opacity:0.6;font-size:11px\">Milwaukee, USA</span><br><br>Brendan Allen &mdash; Middleweight &bull; 6<br>Belal Muhammad &mdash; Welterweight &bull; 4",
+        "count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9065,
+          43.0389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Renzo Gracie Philly",
+        "popup": "<strong>Renzo Gracie Philly</strong><br><span style=\"opacity:0.6;font-size:11px\">Philadelphia, USA</span><br><br>Sean Brady &mdash; Welterweight &bull; 6",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1652,
+          39.9526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Team Renegade",
+        "popup": "<strong>Team Renegade</strong><br><span style=\"opacity:0.6;font-size:11px\">Birmingham, United Kingdom</span><br><br>Leon Edwards &mdash; Welterweight &bull; 8",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8904,
+          52.4862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Finney's HIT Squad",
+        "popup": "<strong>Finney's HIT Squad</strong><br><span style=\"opacity:0.6;font-size:11px\">St. Louis, USA</span><br><br>Joaquin Buckley &mdash; Welterweight &bull; 9",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1994,
+          38.627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Allstars Training Center",
+        "popup": "<strong>Allstars Training Center</strong><br><span style=\"opacity:0.6;font-size:11px\">Stockholm, Sweden</span><br><br>Khamzat Chimaev &mdash; Middleweight &bull; C",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.065,
+          59.3323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Team CIT",
+        "popup": "<strong>Team CIT</strong><br><span style=\"opacity:0.6;font-size:11px\">Pretoria, South Africa</span><br><br>Dricus Du Plessis &mdash; Middleweight &bull; 1",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2293,
+          -25.7479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Fighting Nerds",
+        "popup": "<strong>Fighting Nerds</strong><br><span style=\"opacity:0.6;font-size:11px\">Sao Paulo, Brazil</span><br><br>Caio Borralho &mdash; Middleweight &bull; 5<br>Tabatha Ricci &mdash; Women's Strawweight &bull; 7",
+        "count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6333,
+          -23.5505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Combat Brothers",
+        "popup": "<strong>Combat Brothers</strong><br><span style=\"opacity:0.6;font-size:11px\">Breda, Netherlands</span><br><br>Reinier de Ridder &mdash; Middleweight &bull; 8",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.7683,
+          51.5719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Gracie Jiu-Jitsu Smeaton Grange",
+        "popup": "<strong>Gracie Jiu-Jitsu Smeaton Grange</strong><br><span style=\"opacity:0.6;font-size:11px\">Sydney, Australia</span><br><br>Robert Whittaker &mdash; Middleweight &bull; 9",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7683,
+          -34.0344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Teixeira MMA & Fitness",
+        "popup": "<strong>Teixeira MMA & Fitness</strong><br><span style=\"opacity:0.6;font-size:11px\">Bethel, USA</span><br><br>Alex Pereira &mdash; Light Heavyweight &bull; C",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.414,
+          41.3712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Jetsaam Gym Brno",
+        "popup": "<strong>Jetsaam Gym Brno</strong><br><span style=\"opacity:0.6;font-size:11px\">Brno, Czech Republic</span><br><br>Ji\u0159\u00ed Proch\u00e1zka &mdash; Light Heavyweight &bull; 2",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6068,
+          49.1951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Syndicate MMA",
+        "popup": "<strong>Syndicate MMA</strong><br><span style=\"opacity:0.6;font-size:11px\">Las Vegas, USA</span><br><br>Khalil Rountree Jr. &mdash; Light Heavyweight &bull; 4",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1398,
+          36.1699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "WCA Fight Team",
+        "popup": "<strong>WCA Fight Team</strong><br><span style=\"opacity:0.6;font-size:11px\">Warsaw, Poland</span><br><br>Jan B\u0142achowicz &mdash; Light Heavyweight &bull; 5",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0122,
+          52.2297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Black Lion Jiu-Jitsu",
+        "popup": "<strong>Black Lion Jiu-Jitsu</strong><br><span style=\"opacity:0.6;font-size:11px\">Grand Rapids, USA</span><br><br>Jamahal Hill &mdash; Light Heavyweight &bull; 7",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6681,
+          42.9634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Blackzilians",
+        "popup": "<strong>Blackzilians</strong><br><span style=\"opacity:0.6;font-size:11px\">Fort Lauderdale, USA</span><br><br>Volkan Oezdemir &mdash; Light Heavyweight &bull; 9",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1373,
+          26.1224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Cage Combat Academy",
+        "popup": "<strong>Cage Combat Academy</strong><br><span style=\"opacity:0.6;font-size:11px\">Victorville, USA</span><br><br>Dominick Reyes &mdash; Light Heavyweight &bull; 10",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2912,
+          34.5362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Team Kaobon",
+        "popup": "<strong>Team Kaobon</strong><br><span style=\"opacity:0.6;font-size:11px\">Liverpool, United Kingdom</span><br><br>Tom Aspinall &mdash; Heavyweight &bull; C",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9916,
+          53.4084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "MMA Factory",
+        "popup": "<strong>MMA Factory</strong><br><span style=\"opacity:0.6;font-size:11px\">Paris, France</span><br><br>Ciryl Gane &mdash; Heavyweight &bull; 1<br>Manon Fiorot &mdash; Women's Flyweight &bull; 2",
+        "count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Team Elevation",
+        "popup": "<strong>Team Elevation</strong><br><span style=\"opacity:0.6;font-size:11px\">Aurora, USA</span><br><br>Curtis Blaydes &mdash; Heavyweight &bull; 4<br>Raquel Pennington &mdash; Women's Bantamweight &bull; 2",
+        "count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8319,
+          39.7294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Main Event Fitness",
+        "popup": "<strong>Main Event Fitness</strong><br><span style=\"opacity:0.6;font-size:11px\">Houston, USA</span><br><br>Derrick Lewis &mdash; Heavyweight &bull; 8",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Black House MMA",
+        "popup": "<strong>Black House MMA</strong><br><span style=\"opacity:0.6;font-size:11px\">Los Angeles, USA</span><br><br>Mackenzie Dern &mdash; Women's Strawweight &bull; C",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2437,
+          34.0522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Black Tiger Fight Club",
+        "popup": "<strong>Black Tiger Fight Club</strong><br><span style=\"opacity:0.6;font-size:11px\">Beijing, China</span><br><br>Zhang Weili &mdash; Women's Strawweight &bull; 1",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4074,
+          39.9042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Millennia MMA Gym",
+        "popup": "<strong>Millennia MMA Gym</strong><br><span style=\"opacity:0.6;font-size:11px\">Rancho Cucamonga, USA</span><br><br>Tatiana Suarez &mdash; Women's Strawweight &bull; 2",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.5931,
+          34.1064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Team Titan MMA",
+        "popup": "<strong>Team Titan MMA</strong><br><span style=\"opacity:0.6;font-size:11px\">Vancouver, Canada</span><br><br>Loopy Godinez &mdash; Women's Strawweight &bull; 6",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1207,
+          49.2827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Marajo Brothers Team",
+        "popup": "<strong>Marajo Brothers Team</strong><br><span style=\"opacity:0.6;font-size:11px\">Belem, Brazil</span><br><br>Amanda Lemos &mdash; Women's Strawweight &bull; 8",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.4902,
+          -1.4558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "PRVT Girls",
+        "popup": "<strong>PRVT Girls</strong><br><span style=\"opacity:0.6;font-size:11px\">Curitiba, Brazil</span><br><br>Karol Rosa &mdash; Women's Bantamweight &bull; 8<br>J\u00e9ssica Andrade &mdash; Women's Strawweight &bull; 9",
+        "count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.2671,
+          -25.429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Lobo Gym",
+        "popup": "<strong>Lobo Gym</strong><br><span style=\"opacity:0.6;font-size:11px\">Guadalajara, Mexico</span><br><br>Irene Aldana &mdash; Women's Bantamweight &bull; 6<br>Alexa Grasso &mdash; Women's Flyweight &bull; 3",
+        "count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.3496,
+          20.6597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Renzo Gracie Academy",
+        "popup": "<strong>Renzo Gracie Academy</strong><br><span style=\"opacity:0.6;font-size:11px\">New York, USA</span><br><br>Erin Blanchfield &mdash; Women's Flyweight &bull; 3",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.7128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "303 Training Center",
+        "popup": "<strong>303 Training Center</strong><br><span style=\"opacity:0.6;font-size:11px\">Westminster, USA</span><br><br>Rose Namajunas &mdash; Women's Flyweight &bull; 6",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0372,
+          39.8367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Chicago Fight Team",
+        "popup": "<strong>Chicago Fight Team</strong><br><span style=\"opacity:0.6;font-size:11px\">Chicago, USA</span><br><br>Julianna Pe\u00f1a &mdash; Women's Bantamweight &bull; 1",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6298,
+          41.8781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Nova Uniao",
+        "popup": "<strong>Nova Uniao</strong><br><span style=\"opacity:0.6;font-size:11px\">Manaus, Brazil</span><br><br>Ketlen Vieira &mdash; Women's Bantamweight &bull; 4",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.0217,
+          -3.119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gym": "Fortis MMA",
+        "popup": "<strong>Fortis MMA</strong><br><span style=\"opacity:0.6;font-size:11px\">Dallas, USA</span><br><br>Macy Chiasson &mdash; Women's Bantamweight &bull; 9",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.797,
+          32.7767
+        ]
+      }
+    }
+  ]
+}

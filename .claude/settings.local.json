@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E \"\\\\.ipynb$\")",
+      "Bash(python -c \"import py_compile; py_compile.compile\\(''UFC_mapAPI/scripts/build_data.py''\\); print\\(''Syntax OK''\\)\")",
+      "Bash(python UFC_mapAPI/scripts/build_data.py --help)",
+      "Bash(pip install:*)",
+      "Bash(python -m venv venv)",
+      "Bash(venv/Scripts/pip install:*)",
+      "Bash(rm scripts/fighter_gyms_init.py scripts/geojson_updater.py)",
+      "Bash(rm -rf scripts/__pycache__ csvs geojsons jupyter_notebooks styles)",
+      "Skill(claude-api)",
+      "Skill(claude-api:*)",
+      "Bash(venv/Scripts/python UFC_mapAPI/scripts/build_data.py --from-csv)",
+      "Bash(python -c \"import py_compile; py_compile.compile\\(''UFC_mapAPI/scripts/fetch_gyms_claude.py''\\); print\\(''Syntax OK''\\)\")",
+      "Bash(venv/Scripts/python -c \"import openai; print\\(''openai'', openai.__version__\\)\")"
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+Division,Rank,Fighter,Gym,City,Country,Latitude,Longitude
+Flyweight,C,Joshua Van,Team Oyama,Las Vegas,USA,36.1699,-115.1398
+Flyweight,1,Alexandre Pantoja,American Top Team,Coconut Creek,USA,26.2748,-80.183
+Flyweight,2,Manel Kape,AKA Thailand,Phuket,Thailand,7.8907,98.3981
+Flyweight,3,Tatsuro Taira,The Paraestra Okinawa,Naha,Japan,26.2125,127.6811
+Flyweight,4,Brandon Royval,Factory X,Englewood,USA,39.6478,-104.9878
+Flyweight,5,Kyoji Horiguchi,American Top Team,Coconut Creek,USA,26.2748,-80.183
+Flyweight,6,Lone’er Kavanagh,Team Alpha Male,Sacramento,USA,38.5816,-121.4944
+Flyweight,7,Amir Albazi,Extreme Couture,Las Vegas,USA,36.1699,-115.1398
+Flyweight,8,Asu Almabayev,Team Erkin Kush,Astana,Kazakhstan,51.1694,71.4491
+Flyweight,9,Brandon Moreno,Entram Gym,Tijuana,Mexico,32.5149,-117.0382
+Flyweight,10,Alex Perez,Team Oyama,Las Vegas,USA,36.1699,-115.1398
+Bantamweight,C,Petr Yan,American Top Team,Coconut Creek,USA,26.2748,-80.183
+Bantamweight,1,Merab Dvalishvili,Serra-Longo Fight Team,Huntington,USA,40.8682,-73.4257
+Bantamweight,2,Umar Nurmagomedov,American Kickboxing Academy,San Jose,USA,37.3382,-121.8863
+Bantamweight,2,Sean O'Malley,The MMA Lab,Glendale,USA,33.5387,-112.1859
+Bantamweight,4,Cory Sandhagen,Elevation Fight Team,Aurora,USA,39.7294,-104.8319
+Bantamweight,5,Song Yadong,Team Alpha Male,Sacramento,USA,38.5816,-121.4944
+Bantamweight,6,Aiemann Zahabi,Tristar Gym,Montreal,Canada,45.5017,-73.5673
+Bantamweight,7,Deiveson Figueiredo,Team Figueiredo,Belem,Brazil,-1.4558,-48.4902
+Bantamweight,8,Mario Bautista,The MMA Lab,Glendale,USA,33.5387,-112.1859
+Bantamweight,9,David Martinez,Team Alpha Male,Sacramento,USA,38.5816,-121.4944
+Bantamweight,10,Marlon Vera,Team Oyama,Las Vegas,USA,36.1699,-115.1398
+Featherweight,C,Alexander Volkanovski,City Kickboxing,Auckland,New Zealand,-36.8485,174.7633
+Featherweight,1,Movsar Evloev,American Top Team,Coconut Creek,USA,26.2748,-80.183
+Featherweight,2,Diego Lopes,Kansas City Brazilian Jiu-Jitsu,Kansas City,USA,39.0997,-94.5786
+Featherweight,3,Lerone Murphy,Manchester Top Team,Manchester,United Kingdom,53.4808,-2.2426
+Featherweight,4,Yair Rodriguez,Valle Flow Striking,Chicago,USA,41.8781,-87.6298
+Featherweight,5,Aljamain Sterling,Serra-Longo Fight Team,Huntington,USA,40.8682,-73.4257
+Featherweight,6,Jean Silva,Team Nogueira,Rio de Janeiro,Brazil,-22.9068,-43.1729
+Featherweight,7,Youssef Zalal,Factory X,Englewood,USA,39.6478,-104.9878
+Featherweight,8,Arnold Allen,Tristar Gym,Montreal,Canada,45.5017,-73.5673
+Featherweight,9,Steve Garcia,Team Alpha Male,Sacramento,USA,38.5816,-121.4944
+Featherweight,10,Kevin Vallejos,Team Alpha Male,Sacramento,USA,38.5816,-121.4944
+Lightweight,C,Ilia Topuria,Climent Club,Alicante,Spain,38.3452,-0.4907
+Lightweight,1,Justin Gaethje,ONX Sports,Denver,USA,39.7392,-104.9903
+Lightweight,2,Arman Tsarukyan,American Top Team,Coconut Creek,USA,26.2748,-80.183
+Lightweight,3,Charles Oliveira,Chute Boxe Diego Lima,Sao Paulo,Brazil,-23.5505,-46.6333
+Lightweight,4,Max Holloway,Gracie Technics,Honolulu,USA,21.3069,-157.8583
+Lightweight,5,Benoît Saint Denis,Tristar Gym,Montreal,Canada,45.5017,-73.5673
+Lightweight,6,Paddy Pimblett,Next Generation MMA,Liverpool,United Kingdom,53.4084,-2.9916
+Lightweight,7,Dan Hooker,City Kickboxing,Auckland,New Zealand,-36.8485,174.7633
+Lightweight,8,Mateusz Gamrot,American Top Team,Coconut Creek,USA,26.2748,-80.183
+Lightweight,9,Mauricio Ruffy,Team Nogueira,Rio de Janeiro,Brazil,-22.9068,-43.1729
+Lightweight,10,Renato Moicano,American Top Team,Coconut Creek,USA,26.2748,-80.183
+Lightweight,10,Rafael Fiziev,Tiger Muay Thai,Phuket,Thailand,7.8907,98.3981
+Welterweight,C,Islam Makhachev,American Kickboxing Academy,San Jose,USA,37.3382,-121.8863
+Welterweight,1,Jack Della Maddalena,City Kickboxing,Auckland,New Zealand,-36.8485,174.7633
+Welterweight,2,Ian Machado Garry,Chute Boxe Diego Lima,Sao Paulo,Brazil,-23.5505,-46.6333
+Welterweight,3,Michael Morales,Entram Gym,Tijuana,Mexico,32.5149,-117.0382
+Welterweight,4,Belal Muhammad,Roufusport,Milwaukee,USA,43.0389,-87.9065
+Welterweight,5,Carlos Prates,Team Nogueira,Rio de Janeiro,Brazil,-22.9068,-43.1729
+Welterweight,6,Sean Brady,Renzo Gracie Philly,Philadelphia,USA,39.9526,-75.1652
+Welterweight,7,Kamaru Usman,ONX Sports,Denver,USA,39.7392,-104.9903
+Welterweight,8,Leon Edwards,Team Renegade,Birmingham,United Kingdom,52.4862,-1.8904
+Welterweight,9,Joaquin Buckley,Finney's HIT Squad,St. Louis,USA,38.627,-90.1994
+Welterweight,10,Gabriel Bonfim,Team Nogueira,Rio de Janeiro,Brazil,-22.9068,-43.1729
+Middleweight,C,Khamzat Chimaev,Allstars Training Center,Stockholm,Sweden,59.3323,18.065
+Middleweight,1,Dricus Du Plessis,Team CIT,Pretoria,South Africa,-25.7479,28.2293
+Middleweight,2,Nassourdine Imavov,Factory X,Englewood,USA,39.6478,-104.9878
+Middleweight,3,Sean Strickland,Extreme Couture,Las Vegas,USA,36.1699,-115.1398
+Middleweight,4,Israel Adesanya,City Kickboxing,Auckland,New Zealand,-36.8485,174.7633
+Middleweight,5,Caio Borralho,Fighting Nerds,Sao Paulo,Brazil,-23.5505,-46.6333
+Middleweight,6,Brendan Allen,Roufusport,Milwaukee,USA,43.0389,-87.9065
+Middleweight,7,Anthony Hernandez,Team Alpha Male,Sacramento,USA,38.5816,-121.4944
+Middleweight,8,Reinier de Ridder,Combat Brothers,Breda,Netherlands,51.5719,4.7683
+Middleweight,9,Robert Whittaker,Gracie Jiu-Jitsu Smeaton Grange,Sydney,Australia,-34.0344,150.7683
+Middleweight,10,Jared Cannonier,The MMA Lab,Glendale,USA,33.5387,-112.1859
+Light Heavyweight,C,Alex Pereira,Teixeira MMA & Fitness,Bethel,USA,41.3712,-73.414
+Light Heavyweight,1,Magomed Ankalaev,American Kickboxing Academy,San Jose,USA,37.3382,-121.8863
+Light Heavyweight,2,Jiří Procházka,Jetsaam Gym Brno,Brno,Czech Republic,49.1951,16.6068
+Light Heavyweight,3,Carlos Ulberg,City Kickboxing,Auckland,New Zealand,-36.8485,174.7633
+Light Heavyweight,4,Khalil Rountree Jr.,Syndicate MMA,Las Vegas,USA,36.1699,-115.1398
+Light Heavyweight,5,Jan Błachowicz,WCA Fight Team,Warsaw,Poland,52.2297,21.0122
+Light Heavyweight,6,Azamat Murzakanov,American Top Team,Coconut Creek,USA,26.2748,-80.183
+Light Heavyweight,7,Jamahal Hill,Black Lion Jiu-Jitsu,Grand Rapids,USA,42.9634,-85.6681
+Light Heavyweight,8,Bogdan Guskov,Tiger Muay Thai,Phuket,Thailand,7.8907,98.3981
+Light Heavyweight,9,Volkan Oezdemir,Blackzilians,Fort Lauderdale,USA,26.1224,-80.1373
+Light Heavyweight,10,Dominick Reyes,Cage Combat Academy,Victorville,USA,34.5362,-117.2912
+Heavyweight,C,Tom Aspinall,Team Kaobon,Liverpool,United Kingdom,53.4084,-2.9916
+Heavyweight,1,Ciryl Gane,MMA Factory,Paris,France,48.8566,2.3522
+Heavyweight,2,Alexander Volkov,American Top Team,Coconut Creek,USA,26.2748,-80.183
+Heavyweight,3,Sergei Pavlovich,American Kickboxing Academy,San Jose,USA,37.3382,-121.8863
+Heavyweight,4,Curtis Blaydes,Team Elevation,Aurora,USA,39.7294,-104.8319
+Heavyweight,4,Waldo Cortes Acosta,The MMA Lab,Glendale,USA,33.5387,-112.1859
+Heavyweight,6,Serghei Spivac,American Top Team,Coconut Creek,USA,26.2748,-80.183
+Heavyweight,7,Rizvan Kuniev,American Kickboxing Academy,San Jose,USA,37.3382,-121.8863
+Heavyweight,8,Derrick Lewis,Main Event Fitness,Houston,USA,29.7604,-95.3698
+Heavyweight,8,Marcin Tybura,American Top Team,Coconut Creek,USA,26.2748,-80.183
+Heavyweight,10,Ante Delija,American Top Team,Coconut Creek,USA,26.2748,-80.183
+Women's Strawweight,C,Mackenzie Dern,Black House MMA,Los Angeles,USA,34.0522,-118.2437
+Women's Strawweight,1,Zhang Weili,Black Tiger Fight Club,Beijing,China,39.9042,116.4074
+Women's Strawweight,2,Tatiana Suarez,Millennia MMA Gym,Rancho Cucamonga,USA,34.1064,-117.5931
+Women's Strawweight,3,Virna Jandiroba,Team Nogueira,Rio de Janeiro,Brazil,-22.9068,-43.1729
+Women's Strawweight,4,Yan Xiaonan,Team Alpha Male,Sacramento,USA,38.5816,-121.4944
+Women's Strawweight,5,Gillian Robertson,American Top Team,Coconut Creek,USA,26.2748,-80.183
+Women's Strawweight,6,Loopy Godinez,Team Titan MMA,Vancouver,Canada,49.2827,-123.1207
+Women's Strawweight,7,Tabatha Ricci,Fighting Nerds,Sao Paulo,Brazil,-23.5505,-46.6333
+Women's Strawweight,8,Amanda Lemos,Marajo Brothers Team,Belem,Brazil,-1.4558,-48.4902
+Women's Strawweight,9,Jéssica Andrade,PRVT Girls,Curitiba,Brazil,-25.429,-49.2671
+Women's Strawweight,10,Amanda Ribas,American Top Team,Coconut Creek,USA,26.2748,-80.183
+Women's Flyweight,C,Valentina Shevchenko,Tiger Muay Thai,Phuket,Thailand,7.8907,98.3981
+Women's Flyweight,1,Natalia Silva,Team Nogueira,Rio de Janeiro,Brazil,-22.9068,-43.1729
+Women's Flyweight,2,Manon Fiorot,MMA Factory,Paris,France,48.8566,2.3522
+Women's Flyweight,3,Alexa Grasso,Lobo Gym,Guadalajara,Mexico,20.6597,-103.3496
+Women's Flyweight,3,Erin Blanchfield,Renzo Gracie Academy,New York,USA,40.7128,-74.006
+Women's Flyweight,5,Maycee Barber,Team Alpha Male,Sacramento,USA,38.5816,-121.4944
+Women's Flyweight,6,Rose Namajunas,303 Training Center,Westminster,USA,39.8367,-105.0372
+Women's Flyweight,7,Jasmine Jasudavicius,Team Alpha Male,Sacramento,USA,38.5816,-121.4944
+Women's Flyweight,8,Tracy Cortez,The MMA Lab,Glendale,USA,33.5387,-112.1859
+Women's Flyweight,9,Miranda Maverick,The MMA Lab,Glendale,USA,33.5387,-112.1859
+Women's Flyweight,10,Karine Silva,Team Nogueira,Rio de Janeiro,Brazil,-22.9068,-43.1729
+Women's Bantamweight,C,Kayla Harrison,American Top Team,Coconut Creek,USA,26.2748,-80.183
+Women's Bantamweight,1,Julianna Peña,Chicago Fight Team,Chicago,USA,41.8781,-87.6298
+Women's Bantamweight,2,Raquel Pennington,Team Elevation,Aurora,USA,39.7294,-104.8319
+Women's Bantamweight,3,Norma Dumont,Team Nogueira,Rio de Janeiro,Brazil,-22.9068,-43.1729
+Women's Bantamweight,4,Ketlen Vieira,Nova Uniao,Manaus,Brazil,-3.119,-60.0217
+Women's Bantamweight,5,Yana Santos,American Top Team,Coconut Creek,USA,26.2748,-80.183
+Women's Bantamweight,6,Irene Aldana,Lobo Gym,Guadalajara,Mexico,20.6597,-103.3496
+Women's Bantamweight,6,Ailin Perez,Team Nogueira,Rio de Janeiro,Brazil,-22.9068,-43.1729
+Women's Bantamweight,8,Karol Rosa,PRVT Girls,Curitiba,Brazil,-25.429,-49.2671
+Women's Bantamweight,9,Macy Chiasson,Fortis MMA,Dallas,USA,32.7767,-96.797
+Women's Bantamweight,10,Jacqueline Cavalcanti,Team Nogueira,Rio de Janeiro,Brazil,-22.9068,-43.1729
