@@ -149,17 +149,18 @@ ACTION: Research every fighter on the list using live web search and return the 
 OUTPUT FORMAT — return ONLY the raw CSV, nothing else (no markdown, no code fences,
 no commentary before or after). Start immediately with the header row:
 
-Division,Rank,Fighter,Gym,City,Country,Latitude,Longitude
+Division,Rank,Fighter,Gym,City,Country,Latitude,Longitude,Nationality
 
 Where:
-  - Division  = the UFC weight class (e.g. Lightweight, Women's Strawweight)
-  - Rank      = C (Champion), IC (Interim Champion), or 1-10
-  - Fighter   = exact fighter name as given above
-  - Gym       = current primary training gym name
-  - City      = city where the gym is located
-  - Country   = country where the gym is located
-  - Latitude  = decimal degrees (e.g. 37.3382)
-  - Longitude = decimal degrees (e.g. -121.8863)
+  - Division    = the UFC weight class (e.g. Lightweight, Women's Strawweight)
+  - Rank        = C (Champion), IC (Interim Champion), or 1-10
+  - Fighter     = exact fighter name as given above
+  - Gym         = current primary training gym name
+  - City        = city where the gym is located
+  - Country     = country where the gym is located
+  - Latitude    = decimal degrees for the gym (e.g. 37.3382)
+  - Longitude   = decimal degrees for the gym (e.g. -121.8863)
+  - Nationality = fighter's country of birth / citizenship (e.g. USA, Brazil, Russia)
 """
 
 

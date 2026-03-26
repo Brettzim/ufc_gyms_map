@@ -154,7 +154,51 @@ def geocode(gym_name: str) -> tuple[float | None, float | None]:
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# Step 4 — Build GeoJSON
+# Step 4a — Build nationality heatmap points
+# ══════════════════════════════════════════════════════════════════════════════
+
+# Maps Grok nationality strings → names used in the world GeoJSON
+# (holtzy/D3-graph-gallery world.geojson uses standard English country names)
+NATIONALITY_NORM: dict[str, str] = {
+    # USA variants
+    'United States': 'USA',
+    'United States of America': 'USA',
+    'US': 'USA',
+    'American': 'USA',
+    'Puerto Rico': 'USA',
+    # UK — GeoJSON uses "England" for the whole UK polygon
+    'United Kingdom': 'England',
+    'UK': 'England',
+    'Scotland': 'England',
+    'Wales': 'England',
+    'Northern Ireland': 'England',
+    # Other name differences
+    'Bosnia': 'Bosnia and Herzegovina',
+    'Serbia': 'Republic of Serbia',
+    'Trinidad': 'Trinidad and Tobago',
+    'Czechia': 'Czech Republic',
+    # pass-through (already match GeoJSON): Russia, Brazil, Mexico, Canada,
+    # China, Australia, Poland, France, Japan, Georgia, Argentina, New Zealand,
+    # Ecuador, Nigeria, Kyrgyzstan, Morocco, Iraq, Kazakhstan, Portugal,
+    # Myanmar, Armenia, Ireland, South Africa, Netherlands, Czech Republic,
+    # Uzbekistan, Switzerland, Dominican Republic, Moldova, Croatia, Kosovo
+}
+
+
+def build_country_counts(df: 'pd.DataFrame') -> dict[str, int]:
+    """Return {geo_country_name: fighter_count} from the Nationality column."""
+    if 'Nationality' not in df.columns:
+        return {}
+    counts: dict[str, int] = {}
+    for nat in df['Nationality'].dropna():
+        nat = str(nat).strip()
+        geo = NATIONALITY_NORM.get(nat, nat)   # normalise; fall back to raw value
+        counts[geo] = counts.get(geo, 0) + 1
+    return counts
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# Step 4b — Build GeoJSON
 # ══════════════════════════════════════════════════════════════════════════════
 
 def build_geojson(df: 'pd.DataFrame') -> dict:
@@ -221,7 +265,6 @@ MAP_TEMPLATE = """\
   body {{ font-family: 'Helvetica Neue', Arial, sans-serif; background: #111; }}
   #map {{ position: absolute; top: 0; bottom: 0; width: 100%; }}
 
-  /* Popup styling */
   .leaflet-popup-content-wrapper {{
     background: #1a1a1a;
     color: #f0f0f0;
@@ -238,7 +281,6 @@ MAP_TEMPLATE = """\
   .leaflet-popup-tip {{ background: #1a1a1a; }}
   .leaflet-popup-close-button {{ color: #aaa !important; }}
 
-  /* Legend */
   #legend {{
     position: absolute;
     bottom: 36px;
@@ -251,28 +293,41 @@ MAP_TEMPLATE = """\
     font-size: 12px;
     line-height: 2.2;
     box-shadow: 0 2px 10px rgba(0,0,0,.5);
+    min-width: 190px;
   }}
   #legend strong {{ color: #fff; display: block; margin-bottom: 2px; }}
+  #legend hr {{ border: none; border-top: 1px solid #333; margin: 6px 0; }}
   .dot {{
     display: inline-block; width: 11px; height: 11px;
     border-radius: 50%; margin-right: 7px; vertical-align: middle;
     border: 1.5px solid rgba(255,255,255,0.35);
+  }}
+  .heat-bar {{
+    display: inline-block;
+    width: 80px; height: 8px;
+    margin-right: 7px; vertical-align: middle;
+    border-radius: 4px;
+    background: linear-gradient(to right, #300, #a00, #ff2200);
+    opacity: 0.85;
   }}
 </style>
 </head>
 <body>
 <div id="map"></div>
 <div id="legend">
-  <strong>Ranked fighters per gym</strong>
+  <strong>Fighter nationality</strong>
+  <div><span class="heat-bar"></span>low &rarr; high</div>
+  <hr>
+  <strong>Training gym (ranked fighters)</strong>
   <div><span class="dot" style="background:#4a9eda"></span>1 fighter</div>
   <div><span class="dot" style="background:#ff6b35"></span>2 – 3 fighters</div>
   <div><span class="dot" style="background:#a855f7"></span>4 – 5 fighters</div>
   <div><span class="dot" style="background:#f59e0b"></span>6+ fighters</div>
 </div>
 <script>
-const GYMS = {geojson};
+const GYMS   = {geojson};
+const COUNTS = {heatmap};
 
-// CartoDB Dark Matter — free, no API key required
 const map = L.map('map').setView([25, -30], 2);
 
 L.tileLayer('https://{{s}}.basemaps.cartocdn.com/dark_all/{{z}}/{{x}}/{{y}}{{r}}.png', {{
@@ -280,6 +335,53 @@ L.tileLayer('https://{{s}}.basemaps.cartocdn.com/dark_all/{{z}}/{{x}}/{{y}}{{r}}
   subdomains: 'abcd',
   maxZoom: 19
 }}).addTo(map);
+
+// Choropleth — fully filled countries, red intensity by fighter count
+const maxCount = Math.max(...Object.values(COUNTS), 1);
+
+function countryColor(name) {{
+  const n = COUNTS[name] || 0;
+  if (!n) return 'transparent';
+  // log scale so single-fighter countries are still visible
+  const t = Math.log(n + 1) / Math.log(maxCount + 1);
+  const r = 255;
+  const g = Math.round(220 * (1 - t));
+  const b = Math.round(200 * (1 - t));
+  return `rgb(${{r}},${{g}},${{b}})`;
+}}
+
+fetch('https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson')
+  .then(r => r.json())
+  .then(world => {{
+    L.geoJSON(world, {{
+      style: feature => {{
+        const name  = feature.properties.name;
+        const count = COUNTS[name] || 0;
+        return {{
+          fillColor:   countryColor(name),
+          fillOpacity: count ? 0.75 : 0,
+          color:       count ? 'rgba(255,80,80,0.4)' : 'transparent',
+          weight:      count ? 0.8 : 0,
+        }};
+      }},
+      onEachFeature: (feature, layer) => {{
+        const name  = feature.properties.name;
+        const count = COUNTS[name];
+        if (count) {{
+          layer.bindTooltip(
+            `<strong>${{name}}</strong><br>${{count}} ranked fighter${{count > 1 ? 's' : ''}}`,
+            {{ sticky: true, className: 'country-tip' }}
+          );
+        }}
+      }},
+    }}).addTo(map);
+
+    // Gym pins added after choropleth so they sit on top
+    addGymPins();
+  }});
+
+// Gym pins — rendered on top of choropleth
+function addGymPins() {{
 
 function markerColor(count) {{
   if (count === 1)  return '#4a9eda';
@@ -306,15 +408,17 @@ GYMS.features.forEach(feature => {{
   .bindPopup(props.popup, {{ maxWidth: 300 }})
   .addTo(map);
 }});
+}} // end addGymPins
 </script>
 </body>
 </html>
 """
 
 
-def write_map(geojson: dict, out_path: str) -> None:
+def write_map(geojson: dict, heatmap: dict, out_path: str) -> None:
     html = MAP_TEMPLATE.format(
         geojson=json.dumps(geojson, separators=(',', ':')),
+        heatmap=json.dumps(heatmap, separators=(',', ':')),
     )
     with open(out_path, 'w', encoding='utf-8') as f:
         f.write(html)
@@ -350,10 +454,11 @@ def main() -> None:
         print(f"Building map from {args.csv} ...")
         df = pd.read_csv(args.csv)
         geojson = build_geojson(df)
+        heatmap = build_country_counts(df)
         with open(args.geojson, 'w', encoding='utf-8') as f:
             json.dump(geojson, f, indent=2)
         print(f"  [OK] GeoJSON -> {args.geojson}  ({len(geojson['features'])} gym locations)")
-        write_map(geojson, args.map)
+        write_map(geojson, heatmap, args.map)
         print(f"  [OK] Map     -> {args.map}")
         print("\nDone. Open map.html in your browser.")
         return
@@ -413,11 +518,12 @@ def main() -> None:
     print(f"  [OK] CSV     -> {args.csv}  ({len(df)} fighters)")
 
     geojson = build_geojson(df)
+    heatmap = build_country_counts(df)
     with open(args.geojson, 'w', encoding='utf-8') as f:
         json.dump(geojson, f, indent=2)
     print(f"  [OK] GeoJSON -> {args.geojson}  ({len(geojson['features'])} gym locations)")
 
-    write_map(geojson, args.map)
+    write_map(geojson, heatmap, args.map)
     print(f"  [OK] Map     -> {args.map}")
 
     print()

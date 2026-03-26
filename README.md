@@ -82,12 +82,13 @@ ufc_gyms_map/
 ## Map features
 
 - **Dark theme** — CartoDB Dark Matter tiles, no API key required
-- **Color-coded markers** by number of ranked fighters at each gym
+- **Nationality choropleth** — countries fully filled in red based on how many ranked fighters are from that country. USA, Brazil, and Russia glow the brightest. Hover a country to see the fighter count
+- **Gym pins** rendered on top of the choropleth, color-coded by number of ranked fighters at that gym:
   - Blue — 1 fighter
   - Orange — 2–3 fighters
   - Purple — 4–5 fighters
   - Gold — 6+ fighters
-- **Click any marker** to see the gym name, city, and all fighters listed with their division and rank
+- **Click any pin** to see the gym name, city, and all fighters listed with their division and rank
 
 ---
 
