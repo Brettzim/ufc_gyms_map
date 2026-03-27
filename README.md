@@ -2,11 +2,10 @@
 
 An interactive map showing where the top 10 ranked UFC fighters in each division currently train. Gym data is AI-researched using the xAI Grok API and plotted on a free, no-API-key Leaflet map.
 
-<img width="1680" alt="Screenshot 2024-08-03 at 7 41 07 PM" src="https://github.com/user-attachments/assets/5a58c6ad-a5dd-4b9b-92eb-a69fe4a3691a">
-
-<img width="282" alt="Screenshot 2024-08-03 at 7 48 50 PM" src="https://github.com/user-attachments/assets/3c8e262c-ad8e-4e78-abda-e194028de5d9">
+<img width="2058" height="1130" alt="Screenshot 2026-03-26 233623" src="https://github.com/user-attachments/assets/320702af-86b1-4b3b-9d44-4909b2d0cb69" />
 
 ---
+
 
 ## How it works
 
